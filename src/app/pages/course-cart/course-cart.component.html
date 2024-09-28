@@ -1,0 +1,226 @@
+<section class="shadow-sm border-bottom border-5 z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0 col-3"
+    style="transform: translate(-100px, 0px)"
+    src="./assets/icons/bg/bg-circles.svg"
+  />
+
+  <div class="container position-relative z-3 pt-5 my-5">
+    <h1 class="fw-bolder">
+      <span i18n>Course</span>
+      <span class="text-light" i18n> Cart</span>
+    </h1>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <!-- Checkout -->
+    <div class="col-lg-7">
+      <div
+        class="card card-body fw-semibold border-0 shadow-sm rounded-3 p-4 mb-4"
+      >
+        <!-- title -->
+        <p class="h4" i18n>Checkout</p>
+        <small class="text-body-secondary" i18n>Cart Type</small>
+
+        <!-- cards -->
+        <div class="d-flex gap-2 my-4">
+          <button class="btn border">
+            <img src="./assets/icons/colored/paypal.svg" height="35px" />
+          </button>
+          <button class="btn p-0">
+            <img src="./assets/icons/colored/am-express.svg" height="48px" />
+          </button>
+          <button class="btn border">
+            <img src="./assets/icons/colored/visa.svg" height="35px" />
+          </button>
+          <button class="btn border">
+            <img src="./assets/icons/colored/master-card.svg" height="35px" />
+          </button>
+        </div>
+
+        <!-- form -->
+        <form [formGroup]="cartForm" (ngSubmit)="cartFormSubmit()">
+          <!-- Name On Card -->
+          <div class="mb-3">
+            <label
+              for="card-name"
+              class="form-label legend-label text-secondary bg-white px-2 mx-2"
+            >
+              <small i18n>Name On Card</small>
+            </label>
+            <input
+              formControlName="name"
+              type="text"
+              class="form-control text-secondary rounded-3 shadow-sm p-3"
+              placeholder="Enter name on Card"
+              i18n-placeholder
+              id="card-name"
+            />
+          </div>
+
+          <!-- Card Number -->
+          <div class="mb-3">
+            <label
+              for="card-num"
+              class="form-label legend-label text-secondary bg-white px-2 mx-2"
+            >
+              <small i18n>Card Number</small>
+            </label>
+            <input
+              formControlName="number"
+              type="text"
+              class="form-control text-secondary rounded-3 shadow-sm p-3"
+              placeholder="Enter Card Number"
+              i18n-placeholder
+              id="card-num"
+            />
+          </div>
+
+          <div class="row">
+            <!-- Expiration Date ( MM/YY ) -->
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label
+                  for="card-date"
+                  class="form-label legend-label text-secondary bg-white px-2 mx-2"
+                >
+                  <small i18n>Expiration Date ( MM/YY )</small>
+                </label>
+                <input
+                  formControlName="expirDate"
+                  type="text"
+                  class="form-control text-secondary rounded-3 shadow-sm p-3"
+                  placeholder="Enter Expiration Date"
+                  i18n-placeholder
+                  id="card-date"
+                />
+              </div>
+            </div>
+
+            <!-- CVC -->
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label
+                  for="card-cvc"
+                  class="form-label legend-label text-secondary bg-white px-2 mx-2"
+                >
+                  <small i18n>CVC</small>
+                </label>
+                <input
+                  formControlName="cvc"
+                  type="text"
+                  class="form-control text-secondary rounded-3 shadow-sm p-3"
+                  placeholder="Enter CVC"
+                  i18n-placeholder
+                  id="card-cvc"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Save my information for faster checkout -->
+          <div class="form-check">
+            <input
+              formControlName="saveInfo"
+              class="form-check-input"
+              type="checkbox"
+              value="true"
+              id="saveInfo"
+            />
+            <label class="form-label text-secondary fw-normal" for="saveInfo">
+              <small i18n> Save my information for faster checkout </small>
+            </label>
+          </div>
+
+          <!-- submiting -->
+
+          <button class="btn btn-main rounded-pill w-100 mt-3">
+            Confirm Payment
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Summary -->
+    <div class="col-lg-5">
+      <div
+        class="card card-body border-0 shadow-sm rounded-3 bg-secondary-subtle text-dark p-4 mb-4"
+      >
+        <p class="fw-medium mb-3" i18n>Summary</p>
+
+        <!-- video 1 -->
+        <div class="d-flex gap-2 border-bottom border-secondary py-4">
+          <img
+            class="rounded-4 w-25"
+            src="https://picsum.photos/200"
+            height="100px"
+          />
+          <div>
+            <p class="fw-medium m-1">Adipising elit, sed do eiusmod tempor</p>
+            <p class="m-1">
+              <small>Lorem ipsum dollar...</small>
+            </p>
+            <p class="h5 m-0">$24.69</p>
+          </div>
+        </div>
+
+        <!-- video 2 -->
+        <div class="d-flex gap-2 border-bottom border-secondary py-4">
+          <img
+            class="rounded-4 w-25"
+            src="https://picsum.photos/200"
+            height="100px"
+          />
+          <div>
+            <p class="fw-medium m-1">Adipising elit, sed do eiusmod tempor</p>
+            <p class="m-1">
+              <small>Lorem ipsum dollar...</small>
+            </p>
+            <p class="h5 m-0">$24.69</p>
+          </div>
+        </div>
+
+        <!-- Subtotal -->
+        <div
+          class="d-flex align-items-center justify-content-between fw-semibold border-bottom border-secondary py-2"
+        >
+          <span>Subtotal</span>
+          <span>$51.38</span>
+        </div>
+
+        <!-- Coupon Discount -->
+        <div
+          class="d-flex align-items-center justify-content-between fw-semibold border-bottom border-secondary py-2"
+        >
+          <span>Coupon Discount</span>
+          <span>0 %</span>
+        </div>
+
+        <!-- TAX -->
+        <div
+          class="d-flex align-items-center justify-content-between fw-semibold border-bottom border-secondary py-2"
+        >
+          <span>TAX</span>
+          <span>5</span>
+        </div>
+
+        <!-- Total -->
+        <div
+          class="d-flex align-items-center justify-content-between fw-semibold text-black pt-3"
+        >
+          <span>Total</span>
+          <span>$56.38</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

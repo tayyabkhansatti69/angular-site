@@ -1,0 +1,200 @@
+<p
+  class="bg-main text-light d-flex justify-content-between align-items-center d-md-none w-100 rounded-2 shadow-sm p-3 mb-3"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#sidebar"
+  aria-expanded="false"
+  aria-controls="sidebar"
+>
+  <span i18n>Filter</span>
+  <img src="/assets/icons/form/filter.svg" />
+</p>
+
+<div class="collapse d-md-flex flex-column gap-2" id="sidebar">
+  <form
+    class="d-flex flex-column gap-3"
+    [formGroup]="filteringForm"
+    (ngSubmit)="onSubmitFilter()"
+  >
+    <!-- Categories -->
+    <div
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+      formGroupName="categories"
+    >
+      <p class="h5 fw-semibold" i18n>Subject</p>
+
+      <!-- opts -->
+      <div
+        *ngFor="let item of categoriesClassification | keysArray; let i = index"
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label class="form-check-label" [for]="item">
+            {{ item | titlecase }} ({{ categoriesClassification[item].length }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- languages -->
+    <div
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+      formGroupName="language"
+    >
+      <p class="h5 fw-semibold" i18n>Language</p>
+
+      <!-- opts -->
+      <div
+        *ngFor="let item of languageClassification | keysArray; let i = index"
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label class="form-check-label" [for]="item">
+            {{ item | titlecase }} ({{ languageClassification[item].length }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- price -->
+    <div
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+      formGroupName="price"
+    >
+      <p class="h5 fw-semibold" i18n>Price</p>
+
+      <!-- opts -->
+      <div
+        *ngFor="let item of priceClassification | keysArray; let i = index"
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label class="form-check-label" [for]="item">
+            {{ item | titlecase }} ({{ priceClassification[item].length }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- skill-level -->
+    <div
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+      formGroupName="level"
+    >
+      <p class="h5 fw-semibold" i18n>Skill level</p>
+      <!-- opts -->
+      <div
+        *ngFor="let item of levelClassification | keysArray; let i = index"
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label class="form-check-label" [for]="item">
+            {{ item | titlecase }} ({{ levelClassification[item].length }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- instructors -->
+    <div
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+      formGroupName="instructors"
+    >
+      <p class="h5 fw-semibold" i18n>Instructors</p>
+
+      <!-- opts -->
+      <div
+        *ngFor="
+          let item of instructorsClassification | keysArray;
+          let i = index
+        "
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label class="form-check-label" [for]="item">
+            {{ item | titlecase }} ({{
+              instructorsClassification[item].length
+            }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rating -->
+    <div
+      formGroupName="ratings"
+      class="card bg-body-secondary bg-opacity-50 border-0 p-4"
+    >
+      <p class="h5 fw-semibold" i18n>Rating</p>
+
+      <!-- opt -->
+      <div
+        *ngFor="let item of rateClassification | keysArray; let i = index"
+        class="text-secondary small"
+      >
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            [value]="item"
+            [id]="item"
+            [formControlName]="item"
+          />
+          <label
+            class="form-check-label d-flex align-items-center gap-1"
+            for="rate-opt1"
+          >
+            <img
+              *ngFor="let item of item | returnArray"
+              src="/assets/icons/rating/star-fill.svg"
+            />
+
+            ({{ rateClassification[item].length }})
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="btn btn-main d-flex justify-content-between align-items-center w-100 mb-3"
+    >
+      <span i18n>Filter</span>
+      <img src="/assets/icons/form/filter.svg" />
+    </button>
+  </form>
+</div>

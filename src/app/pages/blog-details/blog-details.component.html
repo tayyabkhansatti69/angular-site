@@ -1,0 +1,171 @@
+<section class="shadow-sm border-bottom border-5 z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0 col-3"
+    style="transform: translate(-100px, 0px)"
+    src="./assets/icons/bg/bg-circles.svg"
+  />
+
+  <div class="container position-relative z-3 pt-5 my-5">
+    <h1 class="fw-bolder">
+      <span i18n>Blog </span>
+      <span class="text-light" i18n>Details</span>
+    </h1>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <!-- ========= -->
+    <!-- Main Info -->
+    <!-- ========= -->
+    <div class="col-xl-8">
+      <div class="card card-body border-0 bg-transparent pt-0">
+        <!-- img -->
+        <img
+          class="card-img rounded-3 object-fit-cover mb-3"
+          [src]="blog['imgUrl']"
+          width="500px"
+          height="450px"
+          alt="..."
+        />
+
+        <!-- Teacher & date -->
+        <div
+          class="card-text d-flex align-items-center gap-2 text-secondary fw-medium mb-3"
+        >
+          <img
+            class="rounded-pill object-fit-cover"
+            [src]="blog['teacher']['photo']"
+            width="50px"
+            height="50px"
+          />
+          <small i18n>By</small>
+          <small class="text-dark flex-grow-1">
+            {{ blog["teacher"]?.name | titlecase }}
+          </small>
+
+          <!-- date -->
+          <small>•</small>
+          <span>
+            <img src="./assets/icons/calendar-outline.svg" />
+            <small>
+              {{ blog["created_at"] | date }}
+            </small>
+          </span>
+          <small>•</small>
+        </div>
+
+        <!-- blog_name -->
+        <h3 class="card-title fw-semibold mb-5">
+          {{ blog["blog_name"] | titlecase }}
+        </h3>
+
+        <!-- info -->
+        <div class="card card-body bg-transparent rounded-3 shadow-sm p-4">
+          <!-- blog Description -->
+          <h5 class="card-title fw-semibold mb-4" i18n>Description</h5>
+
+          <p class="text-body-tertiary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            accusamus harum doloribus non animi dolore eius unde iusto labore
+            voluptates, asperiores placeat veritatis, minus sed aut consectetur
+            aspernatur? Nemo, fugit!
+          </p>
+
+          <!-- What you'll learn -->
+          <h5 class="card-title fw-semibold mb-4" i18n>
+            What you'll learn in this course?
+          </h5>
+
+          <p class="text-body-tertiary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            accusamus harum doloribus non animi dolore eius unde iusto labore
+            voluptates, asperiores placeat veritatis, minus sed aut consectetur
+            aspernatur? Nemo, fugit!
+          </p>
+
+          <!-- Features List -->
+          <!-- f1 -->
+          <p class="fw-semibold mb-2">
+            <img
+              src="./assets/icons/play-video.svg"
+              class="rounded-pill shadow-sm border border-2"
+            />
+            <span class="mx-2" i18n> The Most World Class Instructors </span>
+          </p>
+          <!-- f2 -->
+          <p class="fw-semibold mb-2">
+            <img
+              src="./assets/icons/play-video.svg"
+              class="rounded-pill shadow-sm border border-2"
+            />
+            <span class="mx-2" i18n> Access Your Class anywhere </span>
+          </p>
+          <!-- f3 -->
+          <p class="fw-semibold mb-3">
+            <img
+              src="./assets/icons/play-video.svg"
+              class="rounded-pill shadow-sm border border-2"
+            />
+            <span class="mx-2" i18n> Flexible blog Plan </span>
+          </p>
+
+          <!--  -->
+          <p class="text-body-tertiary">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            accusamus harum doloribus non animi dolore eius unde iusto labore
+            voluptates, asperiores placeat veritatis, minus sed aut consectetur
+            aspernatur? Nemo, fugit!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ -->
+    <!-- side details -->
+    <!-- ============ -->
+    <div class="col-xl-4">
+      <!-- Recent Post -->
+      <div
+        class="card card-body bg-transparent border-0 rounded-3 shadow-sm mb-5"
+      >
+        <h5 class="fw-semibold text-black mb-3" i18n>Recent Post</h5>
+
+        <div
+          *ngFor="let item of recentPost"
+          class="d-flex align-items-center gap-3 bg-body-tertiary rounded-3 p-3 mb-3"
+        >
+          <img class="rounded-3 w-25" [src]="item['img']" height="80px" />
+
+          <div>
+            <p class="fw-medium text-main-lighter m-0">
+              <small>{{ item["date"] | date }}</small>
+            </p>
+            <p class="fw-semibold m-0">Lorem Ipsum is simply dummy</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- tags -->
+      <div class="card card-body bg-transparent border-0 rounded-3 shadow-sm">
+        <h5 class="fw-semibold text-black mb-3" i18n>Tags</h5>
+
+        <div class="d-flex gap-2 flex-wrap">
+          <small
+            *ngFor="let tag of tags"
+            class="bg-main-lighter text-white rounded-1 fw-medium p-1"
+          >
+            {{ tag }}
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

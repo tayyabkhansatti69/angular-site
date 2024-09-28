@@ -1,0 +1,286 @@
+<section class="bg-body-tertiary py-5">
+  <div class="container">
+    <!-- title -->
+    <h1 class="text-center mb-5">
+      <span class="h6 text-light bg-main rounded-pill px-4 py-2" i18n>
+        Trending Categories
+      </span>
+    </h1>
+
+    <!-- Sup Title -->
+    <p class="h1 fw-bolder text-center mx-auto col-lg-5" i18n>
+      Find the right tutor for you.
+    </p>
+    <p class="small text-center text-body-secondary mx-auto pb-4 mb-5" i18n>
+      With over 30,000 tutors and 1M+ learners, we know language learning.
+    </p>
+
+    <!-- Slider -->
+    <div
+      class="bg-body-secondary bg-opacity-25 border-bottom border-5 border-main px-5 py-3 mb-5"
+      style="border-width: 1rem !important"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-back"
+      style="border-radius: 160px"
+    >
+      <div
+        class="flexed-slider position-relative rounded-slider mx-auto col-10"
+      >
+        <owl-carousel-o [options]="customOptions">
+          <!-- en -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 130px; height: 130px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/us.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>English Tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.english }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+
+          <!-- es -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 125px; height: 125px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/es.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>Spanish tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.spanish }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+
+          <!-- fr -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 125px; height: 125px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/fr.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>French tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.french }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+
+          <!-- de -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 125px; height: 125px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/gr.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>German tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.german }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+
+          <!-- it -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 125px; height: 125px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/it.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>Italian tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.italian }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+
+          <!-- ar -->
+          <ng-template carouselSlide>
+            <div
+              class="d-flex justify-content-center align-items-center bg-main rounded-pill border border-3 border-light shadow-sm mx-auto mb-3"
+              style="width: 125px; height: 125px"
+            >
+              <img class="w-auto" src="./assets/icons/countries/ar.svg" />
+            </div>
+
+            <h6 class="fw-bold text-center" i18n>Arabic tutors</h6>
+            <p class="fw-bold text-center text-body-secondary mb-0">
+              (<small>{{ teachersNums.arabic }} </small>
+              <small i18n>Teachers</small>)
+            </p>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
+
+      <!-- Accordion -->
+      <div class="accordion bg-transparent" id="langsAccordion">
+        <div class="accordion-item bg-transparent border-0">
+          <button
+            class="accordion-button collapsed fw-bold bg-transparent justify-content-center shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#langsCollapse"
+            aria-expanded="false"
+            aria-controls="langsCollapse"
+          >
+            See more
+          </button>
+
+          <div
+            id="langsCollapse"
+            class="accordion-collapse collapse"
+            data-bs-parent="#langsAccordion"
+          >
+            <div class="accordion-body">
+              <div class="row mb-5">
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Polish Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Danish Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Greek Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Hindi Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Korean Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Terkish Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Swedish Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Urde Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Korean Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="bg-white rounded-4">
+                    <div
+                      class="btn btn-outline-main border-0 d-flex justify-content-between align-items-center gap-2 rounded-4 p-3"
+                    >
+                      <div>
+                        <p class="fw-bold m-0">Hebrew Tutor</p>
+                        <span>220 Teachers</span>
+                      </div>
+                      <i class="bi bi-arrow-right-short fs-3 mb-0"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

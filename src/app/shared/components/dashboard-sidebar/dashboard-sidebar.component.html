@@ -1,0 +1,235 @@
+<aside class="bg-main-dark position-sticky top-0 start-0 z-3">
+  <div
+    class="offcanvas-lg offcanvas-start bg-main-dark text-light dashboard-sidebar"
+    id="dashboard-aside"
+    aria-labelledby="dashboard-asideLabel"
+    tabindex="-1"
+  >
+    <!-- Header -->
+    <div class="offcanvas-header">
+      <a
+        routerLink="/"
+        class="h5 fw-bold offcanvas-title"
+        id="dashboard-aside-label"
+      >
+        Tutor Hub
+      </a>
+
+      <button
+        type="button"
+        class="btn-close btn-close-white"
+        data-bs-dismiss="offcanvas"
+        data-bs-target="#dashboard-aside"
+        aria-label="Close"
+      ></button>
+    </div>
+
+    <!-- Body -->
+    <div class="offcanvas-body flex-column py-3 px-4 ps-0">
+      <a routerLink="/">
+        <img
+          src="../assets/icons/logo/logo.svg"
+          alt=""
+          class="d-none d-lg-block col-10 ps-3 mb-3"
+        />
+      </a>
+
+      <!-- pages links -->
+      <nav class="mt-4">
+        <ul class="list-unstyled">
+          <!-- Dashboard -->
+          <li class="input-group mb-2">
+            <a
+              routerLink="/dashboard/dashboard"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['dashboard'])"
+            >
+              <i class="bi bi-grid-fill"></i>
+              <span i18n>{{ pages["dashboard"] }}</span>
+            </a>
+          </li>
+
+          <!-- Courses (Instructor) -->
+          <li *userTypePermission="['teacher']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/courses"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['courses'])"
+            >
+              <i class="bi bi-book-fill"></i>
+              <span i18n>{{ pages["courses"] }}</span>
+            </a>
+          </li>
+
+          <!-- My lessons (Students) -->
+          <li *userTypePermission="['student']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/my-lessons"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['my-lessons'])"
+            >
+              <i class="bi bi-book-fill"></i>
+              <span i18n>{{ pages["my-lessons"] }}</span>
+            </a>
+          </li>
+
+          <!-- Schedule -->
+          <li class="input-group mb-2">
+            <a
+              routerLink="/dashboard/schedule"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['schedule'])"
+            >
+              <i class="bi bi-calendar3-week-fill"></i>
+              <span i18n>{{ pages["schedule"] }}</span>
+            </a>
+          </li>
+
+          <!-- Students (Instructor) -->
+          <li *userTypePermission="['teacher']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/students"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['students'])"
+            >
+              <i class="bi bi-people-fill"></i>
+              <span i18n>{{ pages["students"] }}</span>
+            </a>
+          </li>
+
+          <!-- Resource (Instructor) -->
+          <li *userTypePermission="['teacher']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/resource"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['resource'])"
+            >
+              <i class="bi bi-link-45deg"></i>
+              <span i18n>{{ pages["resource"] }}</span>
+            </a>
+          </li>
+
+          <!-- Transaction (Instructor) -->
+          <li *userTypePermission="['teacher']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/transaction"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['transaction'])"
+            >
+              <i class="bi bi-currency-exchange"></i>
+              <span i18n>{{ pages["transaction"] }}</span>
+            </a>
+          </li>
+
+          <!-- Live Class (Instructor) -->
+          <li *userTypePermission="['teacher']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/live-class"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['live-class'])"
+            >
+              <i class="bi bi-camera-video-fill"></i>
+              <span i18n>{{ pages["live-class"] }}</span>
+            </a>
+          </li>
+
+          <!-- Instructors (Students) -->
+          <li *userTypePermission="['student']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/instructors"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['instructors'])"
+            >
+              <i class="bi bi-people-fill"></i>
+              <span i18n>{{ pages["instructors"] }}</span>
+            </a>
+          </li>
+
+          <!-- Profile (Students) -->
+          <li *userTypePermission="['student']" class="input-group mb-2">
+            <a
+              routerLink="/dashboard/profile"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['profile'])"
+            >
+              <i class="bi bi-person-fill"></i>
+              <span i18n>{{ pages["profile"] }}</span>
+            </a>
+          </li>
+
+          <!-- Message -->
+          <li class="mb-2">
+            <a
+              routerLink="/dashboard/message"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['message'])"
+            >
+              <i class="bi bi-chat-dots-fill"></i>
+              <span i18n>{{ pages["message"] }}</span>
+            </a>
+          </li>
+
+          <!-- Wallet -->
+          <li class="mb-2">
+            <a
+              routerLink="/dashboard/wallet"
+              routerLinkActive="bg-main-lighter rounded-end-pill"
+              class="input-group gap-2 w-75 p-2 px-3"
+              data-bs-dismiss="offcanvas"
+              data-bs-target="#dashboard-aside"
+              aria-controls="dashboard-aside"
+              (click)="changePageTitle(pages['wallet'])"
+            >
+              <i class="bi bi-wallet-fill"></i>
+              <span i18n>{{ pages["wallet"] }}</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</aside>

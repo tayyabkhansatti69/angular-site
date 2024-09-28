@@ -1,0 +1,38 @@
+<section class="shadow-sm border-bottom border-5 z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0 col-3"
+    style="transform: translate(-100px, 0px)"
+    src="./assets/icons/bg/bg-circles.svg"
+  />
+
+  <div class="container position-relative z-3 pt-5 my-5">
+    <h1 class="fw-bolder">
+      <span i18n>All</span>
+      <span class="text-light" i18n>Courses</span>
+    </h1>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <!-- sidebar -->
+    <div class="col-md-4 col-lg-3">
+      <app-sidebar
+        [coursesList]="allCourses"
+        (filtering)="onFiltering($event)"
+      ></app-sidebar>
+    </div>
+
+    <!-- courses grid -->
+    <div class="col-md-8 col-lg-9">
+      <app-courses-grid [coursesList]="filteredCourses"></app-courses-grid>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,115 @@
+<section class="bg-body-tertiary py-5">
+  <div class="container">
+    <!-- title -->
+    <h1 class="text-center mb-3">
+      <span class="h6 text-light bg-main-lighter rounded-pill px-4 py-2" i18n>
+        Explore Programs
+      </span>
+    </h1>
+
+    <!-- Sup Title -->
+    <p class="h1 fw-bold text-center mx-auto col-lg-5" i18n>
+      Our Most Popular Class
+    </p>
+    <p class="small text-center text-body-secondary mx-auto col-lg-4 mb-5" i18n>
+      Let's join our famous class, the knowledge provided will definitely be
+      useful for you.
+    </p>
+
+    <!-- Slider -->
+    <div class="position-relative px-lg-2">
+      <div class="flexed-slider owl-nav-lg-bottom mx-auto px-lg-5">
+        <owl-carousel-o [options]="customOptions">
+          <!-- card -->
+          <ng-template carouselSlide *ngFor="let item of cards">
+            <div class="card shadow p-4 m-3">
+              <img [src]="item['imgUrl']" alt="" class="card-img mb-4" />
+              <!-- tag -->
+              <p>
+                <small class="text-main fw-semibold mb-2">{{
+                  item["subject"] | titlecase
+                }}</small>
+              </p>
+
+              <!-- title -->
+              <h6>
+                <a
+                  class="d-flex fw-semibold justify-content-between align-content-center"
+                >
+                  {{ item["course_name"] | titlecase }}
+
+                  <a href="">
+                    <img
+                      src="./assets/icons/open-link.svg"
+                      class="w-auto"
+                      width="12"
+                      height="12"
+                    />
+                  </a>
+                </a>
+              </h6>
+
+              <!-- body -->
+              <p class="text-secondary">
+                <small>{{ item[""] }}</small>
+              </p>
+
+              <!-- rate -->
+              <p class="d-flex align-items-center gap-2 mb-3">
+                <small class="text-main">{{ 3.8 }}</small>
+                <!-- Stars -->
+                <span class="d-flex gap-1">
+                  <img
+                    *ngFor="let i of 3.8 | returnArray"
+                    src="./assets/icons/rating/star.svg"
+                    class="w-auto"
+                  />
+
+                  <img
+                    *ngIf="item[''] % 1"
+                    src="./assets/icons/rating/star-half.svg"
+                    class="w-auto"
+                  />
+                </span>
+
+                <small class="text-secondary"> ({{ 1000 | number }}) </small>
+              </p>
+
+              <!-- Class info -->
+              <div class="d-flex justify-content-between align-items-center">
+                <!-- teacher info -->
+                <div class="d-flex gap-3">
+                  <!-- [src]="item['teacher']['photo']" -->
+                  <img
+                    src="https://picsum.photos/70"
+                    class="rounded-pill"
+                    style="width: 40px; height: 40px"
+                  />
+
+                  <!-- details -->
+                  <div class="">
+                    <h6 class="mb-0">
+                      {{ item["teacher"]["name"] | titlecase }}
+                    </h6>
+
+                    <span class="text-secondary fw-semibold">
+                      <small>
+                        {{ item?.["teacher"]?.["created_at"] |date }}
+                      </small>
+                      <small> Enrolled </small>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- price -->
+                <span class="h5 text-main-lighter fw-bold"
+                  >${{ item["price"] }}</span
+                >
+              </div>
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,50 @@
+.how-work-section {
+  .v-gradient {
+    width: 2px;
+    opacity: 1;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .dots-1,
+  .dots-2 {
+    left: 10% !important;
+  }
+  .dots-1 {
+    top: 26% !important;
+    transform: rotate(-90deg) !important;
+  }
+  .dots-2 {
+    top: 55% !important;
+    transform: rotate(90deg) !important;
+  }
+  // md
+  @media (min-width: 768px) {
+    .dots-1 {
+      top: 40% !important;
+      left: 50% !important;
+      transform: rotate(-84deg) !important;
+    }
+    .dots-2 {
+      transform: rotate(15deg) !important;
+      top: 15% !important;
+      left: 25% !important;
+    }
+  }
+  // lg
+  @media (min-width: 992px) {
+    .dots-1 {
+      top: 37% !important;
+      left: 18% !important;
+      transform: rotate(0deg) !important;
+    }
+    .dots-2 {
+      top: 35% !important;
+      left: 48% !important;
+      transform: rotate(0deg) !important;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+<section class="bg-main overflow-hidden py-5">
+  <!-- circles -->
+  <img
+    src="../assets/icons/bg/bg-top-circles.svg"
+    class="position-absolute top-0 start-0 col-5"
+  />
+  <img
+    src="../assets/icons/bg/bg-bottom-circles.svg"
+    class="position-absolute bottom-0 end-0 col-5"
+  />
+
+  <div class="container py-5">
+    <div class="card rounded-4 overflow-hidden border-0 shadow-sm mt-5">
+      <div class="row" style="min-height: 630px">
+        <!-- image -->
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center align-items-center rounded-4 overflow-hidden z-3 p-lg-5 py-5"
+        >
+          <!-- Overlay -->
+          <img
+            src="../assets/images/dashboard-bg.png"
+            class="img-overlay object-fit-cover"
+          />
+          <div class="overlay"></div>
+
+          <img
+            src="../assets/icons/logo/logo.svg"
+            class="col-9 col-lg-8 mb-3"
+          />
+
+          <p class="h3 text-light fw-light my-4">
+            <span class="d-block mb-2" i18n>Welcome to</span>
+            <span i18n>Tutor Hub Dashboard</span>
+          </p>
+        </div>
+
+        <!-- content -->
+        <div class="col-lg-6">
+          <div class="py-5 px-4 px-lg-5 mb-5">
+            <!-- title -->
+            <h3>Verify code</h3>
+            <p class="fw-light small mb-5">
+              An authentication code has been sent to your email.
+            </p>
+
+            <!-- Form body -->
+            <form [formGroup]="verifyForm" (ngSubmit)="submitVerifyForm()">
+              <!-- Code -->
+              <div class="mb-3 position-relative">
+                <label
+                  for="password"
+                  class="form-label legend-label text-secondary bg-white px-2 mx-2"
+                >
+                  <small i18n>Enter Code</small>
+                </label>
+
+                <input
+                  #codeControl
+                  formControlName="code"
+                  type="password"
+                  class="form-control text-secondary rounded-3 shadow-sm text- p-3 pe-5"
+                  id="password"
+                />
+
+                <!-- icon -->
+                <i
+                  (click)="
+                    codeControl.type =
+                      codeControl.type === 'password' ? 'text' : 'password'
+                  "
+                  class="position-absolute top-50 end-0 p-0 me-4"
+                  [ngClass]="{
+                    'bi bi-eye': codeControl.type === 'password',
+                    'bi bi-eye-slash': codeControl.type === 'text'
+                  }"
+                ></i>
+              </div>
+
+              <!-- Resend message -->
+              <p class="mb-4" i18n>
+                <small class="text-secondary">
+                  Didn't receive a code?
+                  <a class="text-main fw-semibold" routerLink="/sign-up">
+                    Resend
+                  </a>
+                </small>
+              </p>
+
+              <!-- Submit -->
+              <button
+                class="btn btn-main-lighter d-block col-7 mx-auto py-2"
+                i18n
+              >
+                Verify
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

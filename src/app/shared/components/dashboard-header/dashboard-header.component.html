@@ -1,0 +1,116 @@
+<header class="py-2">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <!-- sidebar toggeler -->
+      <button
+        class="navbar-toggler p-2"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#dashboard-aside"
+        aria-controls="dashboard-aside"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+          />
+        </svg>
+      </button>
+
+      <!-- title -->
+      <h3 class="fw-bold text-dark mb-0">
+        {{ pageTitle }}
+      </h3>
+
+      <!-- toggeler -->
+      <button
+        class="navbar-toggler p-2"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#dashboard-avbar"
+        aria-controls="dashboard-avbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-three-dots"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"
+          />
+        </svg>
+      </button>
+
+      <!-- collapse -->
+      <div class="collapse navbar-collapse mt-4 mt-lg-0" id="dashboard-avbar">
+        <!-- search form -->
+        <!-- <form class="mx-auto">
+          <div class="input-group bg-body-tertiary rounded-3 gap-1 px-2">
+            <img
+              src="../assets/icons/form/search-colored.svg"
+              class="p-2 pe-0"
+            />
+            <input
+              class="form-control border-0 bg-transparent shadow-none"
+              type="search"
+              placeholder="Search here..."
+              i18n-placeholder
+            />
+          </div>
+        </form> -->
+        <div class="flex-fill"></div>
+
+        <!-- Languages Form -->
+        <app-langs-form></app-langs-form>
+
+        <!-- Profile icons -->
+        <div class="d-flex gap-1 position-relative">
+          <button class="btn">
+            <img src="../assets/icons/chat-bars.svg" />
+          </button>
+
+          <button class="btn">
+            <img src="../assets/icons/bell.svg" />
+          </button>
+
+          <!-- settings -->
+          <button
+            class="btn"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img src="../assets/icons/gear.svg" />
+          </button>
+          <!-- dropdown -->
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item pointer" (click)="onLogout()" i18n
+                >Logout</a
+              >
+            </li>
+          </ul>
+
+          <img
+            class="object-fit-cover rounded-4"
+            width="45"
+            height="45"
+            src="../assets/images/teacher.png"
+          />
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

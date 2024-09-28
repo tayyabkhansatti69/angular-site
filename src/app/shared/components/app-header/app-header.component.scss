@@ -1,0 +1,37 @@
+header {
+  border: 2px solid white;
+  background: #ffffff75;
+  transition: background-color 0.3s !important;
+  box-shadow: var(--bs-box-shadow) !important;
+
+  &:has(button[aria-expanded="true"]) {
+    background: #fff;
+    :not(option),
+    ::placeholder {
+      color: var(--main-color-darker);
+    }
+  }
+  *,
+  ::placeholder {
+    color: #fff;
+  }
+  .btn,
+  .btn * {
+    color: #fff !important;
+  }
+}
+
+header .vr {
+  height: 50% !important;
+  width: 3px;
+  align-self: auto;
+}
+
+.scrolled {
+  background: #fff;
+
+  :not(option),
+  ::placeholder {
+    color: var(--main-color-darker);
+  }
+}

@@ -1,0 +1,157 @@
+<section class="shadow z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0"
+    style="transform: translate(-160px, 20px)"
+    src="./assets/icons/bg/bg-circles.svg"
+    width="390"
+    height="390"
+  />
+  <img
+    class="position-absolute bottom-0 start-0"
+    style="transform: translate(200px, 300px)"
+    src="./assets/icons/bg/bg-circles.svg"
+    width="390"
+    height="390"
+  />
+  <img
+    class="position-absolute bottom-0 end-0"
+    style="transform: translate(100px, 100px) rotate(-110deg) scaleY(-1)"
+    src="./assets/icons/bg/bg-circles.svg"
+    width="390"
+    height="390"
+  />
+  <i
+    class="bi bi-circle-fill text-light position-absolute bottom-0 start-50"
+    style="transform: translateY(-100px)"
+  ></i>
+
+  <div class="container position-relative z-3 py-5 mt-5">
+    <div class="row py-5">
+      <!-- Image -->
+      <div
+        class="col-lg-6 order-lg-last"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-easing="ease-out-back"
+        data-aos-delay="500"
+      >
+        <div
+          class="mx-auto img-box-border border-light card bg-transparent border-0 rounded-pill position-relative mb-5 mb-lg-0 z-2 w-75"
+        >
+          <img
+            src="./assets/images/landing-section-girl.png"
+            class="card-img rounded-pill bg-info bg-opacity-50"
+            alt="..."
+          />
+
+          <!-- Video Popup -->
+          <div
+            class="card shadow position-absolute rounded-3 top-50 translate-middle-y translate-start-25 translate-middle-lg-x start-0 z-3 mb-3"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center gap-3 px-3 py-2"
+            >
+              <!-- icon -->
+              <i
+                class="bi bi-laptop bg-main text-light rounded-1 h4 py-1 px-2 m-0"
+              ></i>
+
+              <div class="">
+                <h5 class="fw-bold mb-0">
+                  {{ videosCoursesNum | numberFormat }}
+                </h5>
+
+                <small class="smaller text-secondary-emphasis" i18n>
+                  Video Courses
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Online Courses Popup -->
+          <div
+            class="card shadow position-absolute rounded-3 text-center translate-end-25 top-0 end-0 z-3 mb-3"
+            style="transform: translate(25%, -70%)"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-3 p-3"
+            >
+              <div class="rounded-1 px-2 py-1">
+                <i
+                  class="bi bi-app-indicator bg-main text-light rounded-1 h4 py-1 px-2 m-0"
+                ></i>
+              </div>
+
+              <div>
+                <h5 class="fw-bold mb-0">
+                  {{ onlineCoursesNum | numberFormat }}
+                </h5>
+
+                <small class="smaller text-secondary-emphasis" i18n>
+                  Online Courses
+                </small>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tutors Popup -->
+          <div
+            class="card shadow position-absolute rounded-3 translate-end-25 bottom-0 end-0 z-3 mb-3"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center gap-3 p-2 px-3"
+            >
+              <i
+                class="bi bi-person-video3 bg-main text-light rounded-1 h4 py-1 px-2 m-0"
+              ></i>
+
+              <div>
+                <small class="smaller text-secondary-emphasis" i18n
+                  >Tutors</small
+                >
+                <p class="card-title fw-bold mb-0">
+                  {{ tutorNum | numberFormat }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Landing text -->
+      <div
+        class="col-lg-6 d-flex align-items-center justify-content-lg-center text-light"
+      >
+        <div>
+          <h1 class="fw-bolder text-capitalize">
+            <span class="fw-bolder text-black" i18n>Up Your </span>
+            <span class="fw-bolder text-light" i18n>Skills </span>
+            <br />
+            <span class="fw-bolder text-black" i18n>To </span>
+            <span class="fw-bolder text-light" i18n>Advance </span>
+            <span class="fw-bolder text-black" i18n>Your </span>
+            <br />
+            <span class="fw-bolder text-light" i18n>Career </span>
+            <span class="fw-bolder text-black" i18n>Path </span>
+          </h1>
+
+          <button
+            routerLink="./all-courses"
+            class="btn btn-main rounded-pill px-4 mt-4"
+          >
+            <span i18n> Start Free Trial </span>
+            <i class="bi bi-arrow-right-short"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

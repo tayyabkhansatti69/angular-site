@@ -1,0 +1,117 @@
+<section class="shadow-sm border-bottom border-5 z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0 col-3"
+    style="transform: translate(-100px, 0px)"
+    src="./assets/icons/bg/bg-circles.svg"
+  />
+
+  <div class="container position-relative z-3 pt-5 my-5">
+    <h1 class="fw-bolder">
+      <span class="text-light" i18n>Blog</span>
+    </h1>
+  </div>
+</section>
+
+<section class="container">
+  <div class="row my-5">
+    <div *ngFor="let blog of displayedCourses" class="col-lg-6">
+      <div
+        class="card card-body rounded-4 border-0 shadow text-dark p-4 py-5 mb-5"
+      >
+        <img
+          class="card-img rounded-4 mb-3"
+          [src]="blog['img']"
+          height="350px"
+          alt=""
+        />
+        <!-- title -->
+        <p class="h5 fw-semibold">{{ blog["title"] }}</p>
+
+        <!-- teacher -->
+        <div class="d-flex gap-2 align-items-center m-3">
+          <img
+            class="rounded-pill"
+            [src]="blog['author']['img']"
+            width="50px"
+            height="50px"
+          />
+          <span class="fw-semibold">{{ blog["author"]["name"] }}</span>
+        </div>
+
+        <!-- descrption -->
+        <p class="text-body-secondary">
+          <small>{{ blog["description"] }}</small>
+        </p>
+
+        <!-- more & viewers -->
+        <div class="d-flex justify-content-between align-items-center gap-2">
+          <a
+            routerLink="/blog-details"
+            [queryParams]="{ id: blog['id'] }"
+            class="text-body-secondary text-decoration-underline"
+          >
+            <small>Read more</small>
+          </a>
+
+          <div class="d-flex align-items-center gap-2">
+            <svg
+              width="17"
+              height="17"
+              viewBox="0 0 24 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.3008 7.69556C21.1914 3.55493 16.9727 0.742432 12.207 0.742432C7.40234 0.742432 3.18359 3.55493 1.07422 7.69556C0.996094 7.85181 0.957031 8.04712 0.957031 8.24243C0.957031 8.47681 0.996094 8.67212 1.07422 8.82837C3.18359 12.969 7.40234 15.7424 12.207 15.7424C16.9727 15.7424 21.1914 12.969 23.3008 8.82837C23.3789 8.67212 23.418 8.47681 23.418 8.28149C23.418 8.04712 23.3789 7.85181 23.3008 7.69556ZM12.207 13.8674C9.08203 13.8674 6.58203 11.3674 6.58203 8.24243C6.58203 5.15649 9.08203 2.61743 12.207 2.61743C15.293 2.61743 17.832 5.15649 17.832 8.24243V8.28149C17.832 11.3674 15.293 13.9065 12.207 13.9065V13.8674ZM12.207 4.49243C11.8555 4.53149 11.5039 4.57056 11.1914 4.64868C11.4258 4.96118 11.543 5.35181 11.543 5.78149C11.543 6.79712 10.7227 7.61743 9.70703 7.61743C9.27734 7.61743 8.88672 7.50024 8.57422 7.26587C8.49609 7.57837 8.45703 7.92993 8.45703 8.24243C8.45703 10.3127 10.1367 11.9924 12.207 11.9924C14.2773 11.9924 15.957 10.3127 15.957 8.24243C15.957 6.17212 14.2773 4.53149 12.207 4.53149V4.49243Z"
+                fill="#49BBBD"
+              />
+            </svg>
+            <small>{{ blog["views"] | number }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- pagination btns -->
+<section class="d-flex justify-content-center my-4">
+  <ul class="list-unstyled d-flex mb-0">
+    <!-- prev -->
+    <li>
+      <button class="btn h-100" (click)="chinalyPagination(false)">
+        <span aria-hidden="true">&laquo;</span>
+      </button>
+    </li>
+
+    <!-- btns -->
+    <div class="d-flex flex-grow-1 overflow-x-scroll">
+      <li
+        *ngFor="let item of +allBlogs?.length / 6 | returnArray; let i = index"
+      >
+        <button
+          [id]="i"
+          class="btn btn-main-lighter p-2 px-3 m-2"
+          [ngClass]="{ 'active bg-dark': activePage == i }"
+          (click)="pagination(i)"
+        >
+          {{ i + 1 }}
+        </button>
+      </li>
+    </div>
+
+    <!-- next -->
+    <li>
+      <button class="btn h-100" (click)="chinalyPagination()">
+        <span aria-hidden="true">&raquo;</span>
+      </button>
+    </li>
+  </ul>
+</section>

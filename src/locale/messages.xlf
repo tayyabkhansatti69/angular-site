@@ -1,0 +1,2838 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2727795097236772947" datatype="html">
+        <source>Useful Links</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6741838149332998818" datatype="html">
+        <source>Who we are</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2407860499554401189" datatype="html">
+        <source>How it works</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="298362600484272868" datatype="html">
+        <source>Tutor reviews</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5611592591303869712" datatype="html">
+        <source>Status</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9129336914724043956" datatype="html">
+        <source>Work at Future Learn</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="429701839875874447" datatype="html">
+        <source>uizlet Plus</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7949476953758944609" datatype="html">
+        <source>Tutor hub</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="759687838251957893" datatype="html">
+        <source>Contact Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5656182506859678024" datatype="html">
+        <source>Become Teacher</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7751010942038334793" datatype="html">
+        <source>Blog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blogs/blogs.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="113812946201100817" datatype="html">
+        <source>Instructor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5729418620241283277" datatype="html">
+        <source>Events</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4153787616708320320" datatype="html">
+        <source>Get In Touch</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5972524829161520949" datatype="html">
+        <source> when an unknown printer took galley type and scrambled </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1428829689638721816" datatype="html">
+        <source> Tutor All rights reserved </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">150,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="595744633037634398" datatype="html">
+        <source>Term of Use | Privacy Policy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-footer/app-footer.component.html</context>
+          <context context-type="linenumber">152,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1588249456236960718" datatype="html">
+        <source> Find Tutors </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7948042351954185144" datatype="html">
+        <source> Corporate Training </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8171923344698579101" datatype="html">
+        <source> Become a Tutor </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1902100407096396858" datatype="html">
+        <source>Categories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2497313229294405082" datatype="html">
+        <source>Search For Course...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">188,189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2715185765061607307" datatype="html">
+        <source> Log in </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7504940227782988572" datatype="html">
+        <source> Logout </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/app-header/app-header.component.html</context>
+          <context context-type="linenumber">218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8694594514623796584" datatype="html">
+        <source>Search here...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-header/dashboard-header.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/students-table.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3797778920049399855" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-header/dashboard-header.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6570363013146073520" datatype="html">
+        <source>Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1368388923673520351" datatype="html">
+        <source>Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/all-courses.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/courses/courses.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/courses-graph/courses-graph.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5460812798802712133" datatype="html">
+        <source>My Lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5433782699501161466" datatype="html">
+        <source>Schedule</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2562531496877210322" datatype="html">
+        <source>Students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/tutors-statistics/tutors-statistics.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/students/students.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1664620352147673062" datatype="html">
+        <source>Resource</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">126,127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/resource/resource.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="313854265968026491" datatype="html">
+        <source>Transaction</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/transaction.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2285567248656612241" datatype="html">
+        <source>Live Class</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">156,157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3270630140903995092" datatype="html">
+        <source>Instructors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">171,172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">131,133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/instructors/instructors.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4915431133669985304" datatype="html">
+        <source>Profile</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">186,187</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/profile.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8066608938393600549" datatype="html">
+        <source>Message</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">201,202</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2575486924758487590" datatype="html">
+        <source>Wallet</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard-sidebar/dashboard-sidebar.component.html</context>
+          <context context-type="linenumber">216,217</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/wallet/wallet.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1616102757855967475" datatype="html">
+        <source>All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/all-courses.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3313305464759255603" datatype="html">
+        <source>Showing</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8287137335272169108" datatype="html">
+        <source>Total Results</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4453241535632130157" datatype="html">
+        <source> Sort By </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2627546436080053768" datatype="html">
+        <source>Most Popular</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2601509662206882231" datatype="html">
+        <source>A - Z</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2734428085210223698" datatype="html">
+        <source>Ascending Price</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5786742844035320623" datatype="html">
+        <source>Descending Price</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8888725044026158500" datatype="html">
+        <source>Rewiews</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">99,100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7702646444963497962" datatype="html">
+        <source>By</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6682350152062245340" datatype="html">
+        <source>Book Trial</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/courses-grid/courses-grid.component.html</context>
+          <context context-type="linenumber">128,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8829497237648100098" datatype="html">
+        <source>Filter</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">196,197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9127604588498960753" datatype="html">
+        <source>Subject</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2826581353496868063" datatype="html">
+        <source>Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">51,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8894377483833272091" datatype="html">
+        <source>Price</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">78,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6573562265691359839" datatype="html">
+        <source>Skill level</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3706222784708785028" datatype="html">
+        <source>Rating</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/all-courses/components/sidebar/sidebar.component.html</context>
+          <context context-type="linenumber">163,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3045523018766859841" datatype="html">
+        <source>Welcome to</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/verify-code/verify-code.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4771924936077212364" datatype="html">
+        <source>Tutor Hub Dashboard</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/verify-code/verify-code.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2012659005494284050" datatype="html">
+        <source>Forgot your password?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7133769961456678586" datatype="html">
+        <source> Don’t worry, happens to all of us. Enter your email below to recover your password </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1769661379068269645" datatype="html">
+        <source>Your email</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4943998242904350511" datatype="html">
+        <source> Submit </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/forgot-password/forgot-password.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8591875090862306452" datatype="html">
+        <source>Set a password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5377208095101507734" datatype="html">
+        <source> Your previous password has been reseted. Please set a new password for your account. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8203655050490516019" datatype="html">
+        <source>Create Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6399730770833937835" datatype="html">
+        <source>Re-enter Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7840797906265767028" datatype="html">
+        <source> Set password </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/set-new-password/set-new-password.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1048783979000502165" datatype="html">
+        <source> Login to access your Tutor hub account </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">206,207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="136990059700011141" datatype="html">
+        <source>The password field must be at least 8 characters.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">99,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4145496584631696119" datatype="html">
+        <source>Role</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">272,273</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1951089763019042037" datatype="html">
+        <source>Student</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">280,281</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4250948520990652627" datatype="html">
+        <source>Teacher</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">281,282</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8621797738551294959" datatype="html">
+        <source>Parent</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">118,119</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">282,283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5041354590769758251" datatype="html">
+        <source>Admin</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">283,284</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1540281436321485610" datatype="html">
+        <source>Manager</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">284,285</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3594362643472805398" datatype="html">
+        <source> The Email Or Password Is Incorrect. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2623524733987339825" datatype="html">
+        <source> Remember me </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3035570095838445091" datatype="html">
+        <source> Forgot password? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">145,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1908285951500318953" datatype="html">
+        <source> Login </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">325</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4491329095434259042" datatype="html">
+        <source>Don’t have an account?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7203320122205058413" datatype="html">
+        <source> Sign up </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5472355784412070723" datatype="html">
+        <source> Or login with </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-in/sign-in.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7028204981963450021" datatype="html">
+        <source>Sign up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8688924105747600314" datatype="html">
+        <source> Let’s get you all set up so you can access your personal account. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1292737233370901804" datatype="html">
+        <source>Mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3262236020277300799" datatype="html">
+        <source>Phone</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7477935745403703480" datatype="html">
+        <source>Major</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6346357924377938019" datatype="html">
+        <source>Grade</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1130652265542107236" datatype="html">
+        <source>Age</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3948439187870398089" datatype="html">
+        <source>Gender</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">158,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8012344910054029733" datatype="html">
+        <source>Male</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">166,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5667840900782067941" datatype="html">
+        <source>Female</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">167,168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5750485945694679561" datatype="html">
+        <source>Photo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">177,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3241357959735682038" datatype="html">
+        <source>Confirm Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">238,239</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8418679027395916868" datatype="html">
+        <source> The password field must be at least 8 characters. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">294</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="238071435553022033" datatype="html">
+        <source> Inconsistent Passwords </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6206948261440380258" datatype="html">
+        <source> The Email Has Already Been Taken. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">312</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5786625400070002348" datatype="html">
+        <source> Something Error! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3169427745796293414" datatype="html">
+        <source> Already have an account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;text-main fw-semibold&quot; routerLink=&quot;/auth/sign-in&quot;&gt;"/> Login <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">332,336</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4560806013997889707" datatype="html">
+        <source> Or Sign up with </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/sign-up/sign-up.component.html</context>
+          <context context-type="linenumber">342,343</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3393428450781160136" datatype="html">
+        <source>Enter Code</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/verify-code/verify-code.component.html</context>
+          <context context-type="linenumber">51,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6444851217149553798" datatype="html">
+        <source><x id="START_SMALL_TEXT" ctype="x-small" equiv-text="&lt;small class=&quot;text-secondary&quot;&gt;"/> Didn&apos;t receive a code? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;text-main fw-semibold&quot; routerLink=&quot;/sign-up&quot;&gt;"/> Resend <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/><x id="CLOSE_SMALL_TEXT" ctype="x-small" equiv-text="&lt;/small&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/verify-code/verify-code.component.html</context>
+          <context context-type="linenumber">79,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1812429098722823159" datatype="html">
+        <source> Verify </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/auth-pages/verify-code/verify-code.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="713402104377971869" datatype="html">
+        <source>Become </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/become-tutor.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="785087207812608426" datatype="html">
+        <source>An Tutor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/become-tutor.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7180505570635305130" datatype="html">
+        <source> How you&apos;ll become successful instructor </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="641780182958299000" datatype="html">
+        <source>1. Apply to become instructor.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4522102225275254492" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="629217115943091333" datatype="html">
+        <source>2. Setup &amp; edit your profile.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="138625148849009235" datatype="html">
+        <source>3. Create your new course</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7285224444745010710" datatype="html">
+        <source>4. Start teaching &amp; earning</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/advice/advice.component.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4974008390881318434" datatype="html">
+        <source> Don’t worry we’re always here to help you </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/call-center/call-center.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3157841202614224935" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/call-center/call-center.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/create-profile/create-profile.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7457542612509460773" datatype="html">
+        <source>Email us, anytime anywhere</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/call-center/call-center.component.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8578821591867108218" datatype="html">
+        <source> Teach students from over 180 countries </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/create-profile/create-profile.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3446407178285240859" datatype="html">
+        <source>Create A Tutor Profile Now</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/create-profile/create-profile.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="700005447217486360" datatype="html">
+        <source> 5k+ Instructor created their success story with Tutor Hub </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/stores/stores.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4998128797235479824" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/stores/stores.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2453346947196418400" datatype="html">
+        <source>Certified Instructor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/tutors-statistics/tutors-statistics.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2054122124206453320" datatype="html">
+        <source>Country Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/tutors-statistics/tutors-statistics.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3761300505262035965" datatype="html">
+        <source>Success Rate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/tutors-statistics/tutors-statistics.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1523566279121284018" datatype="html">
+        <source>Trusted Companies </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/become-tutor/components/tutors-statistics/tutors-statistics.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8377678167109580576" datatype="html">
+        <source>Blog </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5028777105388019087" datatype="html">
+        <source>Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">73,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2842776936099489409" datatype="html">
+        <source> What you&apos;ll learn in this course? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7395015406849409753" datatype="html">
+        <source> The Most World Class Instructors </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">101,102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">183,184</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">107,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="96508775637027846" datatype="html">
+        <source> Access Your Class anywhere </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">109,110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">191,192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">115,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8432936430221957222" datatype="html">
+        <source> Flexible blog Plan </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2086256589253770459" datatype="html">
+        <source>Recent Post</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">139,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7886570921510760899" datatype="html">
+        <source>Tags</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/blog-details/blog-details.component.html</context>
+          <context context-type="linenumber">158,160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">84,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8317457230285174180" datatype="html">
+        <source>Course</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1627088547643700965" datatype="html">
+        <source> Cart</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4776389683576645610" datatype="html">
+        <source>Checkout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5099129771354813747" datatype="html">
+        <source>Cart Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1052899239529998343" datatype="html">
+        <source>Name On Card</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6223542762862216268" datatype="html">
+        <source>Enter name on Card</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1085309836704157602" datatype="html">
+        <source>Card Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3095650075794314285" datatype="html">
+        <source>Enter Card Number</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7558315665920143935" datatype="html">
+        <source>Expiration Date ( MM/YY )</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5427843381675147158" datatype="html">
+        <source>Enter Expiration Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6248057760302687725" datatype="html">
+        <source>CVC</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6495496570326932312" datatype="html">
+        <source>Enter CVC</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">122,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7546601394180648669" datatype="html">
+        <source> Save my information for faster checkout </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">140,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4739818603756173797" datatype="html">
+        <source>Summary</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-cart/course-cart.component.html</context>
+          <context context-type="linenumber">158,160</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8994461792437349072" datatype="html">
+        <source> Details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6492690912049633374" datatype="html">
+        <source> Overview </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4558772519882891408" datatype="html">
+        <source> Curriculum </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9029536338178971207" datatype="html">
+        <source> Instructors </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="506131009201360384" datatype="html">
+        <source> Reviews </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2601550785470281941" datatype="html">
+        <source>Course Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">157,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="271064927879862643" datatype="html">
+        <source> Flexible Course Plan </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">199,200</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">123,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3863643184428766765" datatype="html">
+        <source>This Course Fees:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">223,224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2645693859662716024" datatype="html">
+        <source>Course includes:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3733215288982610673" datatype="html">
+        <source>Level</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">233,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7410432243549869948" datatype="html">
+        <source>Duration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">244,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3266776808280096311" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ course[&quot;session_duration&quot;] }}"/>h </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">246,247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1761202381285646142" datatype="html">
+        <source> $<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-main-lighter&quot;&gt;"/>15<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">249,250</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1659014718884293070" datatype="html">
+        <source>Lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">255,256</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9739615701762462" datatype="html">
+        <source>Quizzes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">266,267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9119658303636617133" datatype="html">
+        <source>Graduation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">275,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6891701039372181865" datatype="html">
+        <source>Secure Payment:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">283,284</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7464789920784858555" datatype="html">
+        <source>Buy Now</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/course-details/course-details.component.html</context>
+          <context context-type="linenumber">295,296</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7238108417220962900" datatype="html">
+        <source>Review </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-info/course-info.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="185862847796927548" datatype="html">
+        <source> Students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-info/course-info.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1726363342938046830" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-info/course-info.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9029286143304711365" datatype="html">
+        <source>Reviews</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-info/course-info.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6160972322896689559" datatype="html">
+        <source>Discussion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6438662490734953431" datatype="html">
+        <source>About Course</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/video-viewer/video-viewer.component.html</context>
+          <context context-type="linenumber">102,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3419681791450150574" datatype="html">
+        <source>Progress</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/videos-list/videos-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/progress-graph/progress-graph.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8727070770623592852" datatype="html">
+        <source>Full-Stack Web Developer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/videos-list/videos-list.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6440768135075191187" datatype="html">
+        <source>Video Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/videos-list/videos-list.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7977540755068228352" datatype="html">
+        <source>Quiz</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/components/videos-list/videos-list.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5546673267240811134" datatype="html">
+        <source>My lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-contents/course-contents.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/course-overview.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7556595986915232343" datatype="html">
+        <source> Add to Cart </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-buy-card/course-buy-card.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6802242081221365601" datatype="html">
+        <source> Buy Now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-buy-card/course-buy-card.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8579036449586285640" datatype="html">
+        <source>1 Month Ago</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/components/course-info/course-info.component.html</context>
+          <context context-type="linenumber">105,106</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8890553633144307762" datatype="html">
+        <source>Back</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/course-overview/course-overview.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1277999999519531387" datatype="html">
+        <source>than last year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/courses-graph/courses-graph.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-graph/students-graph.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1200904954103376376" datatype="html">
+        <source>Earnings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/eanings-graph/eanings-graph.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4674318460512567698" datatype="html">
+        <source>This Month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/eanings-graph/eanings-graph.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6596577735157415716" datatype="html">
+        <source>Prepaid</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/prepaid-graph/prepaid-graph.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5991401606885229199" datatype="html">
+        <source>Total Students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-graph/students-graph.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5820846457522726110" datatype="html">
+        <source>Current students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/students-table.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="641724041071034475" datatype="html">
+        <source>Archived students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/students-table.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3974724489654440199" datatype="html">
+        <source>Student ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4944299604016820803" datatype="html">
+        <source>Price per Lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7306686501828839732" datatype="html">
+        <source>Join Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5573863037839972527" datatype="html">
+        <source>Prepaid balance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6533918067030990396" datatype="html">
+        <source>Amount</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8187899287337451477" datatype="html">
+        <source>Showing </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">136,137</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/components/all-courses-for-student/all-courses-for-student.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5984572334449070894" datatype="html">
+        <source> from </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">138,139</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/components/all-courses-for-student/all-courses-for-student.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="413874846465389504" datatype="html">
+        <source> data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/students-table/table/table.component.html</context>
+          <context context-type="linenumber">140,141</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/components/all-courses-for-student/all-courses-for-student.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1112425507908872799" datatype="html">
+        <source>Today Student List</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/dashboard/components/today-student-list/today-student-list.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7430680760319628492" datatype="html">
+        <source>Review</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/instructors/instructors.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6278560242079167378" datatype="html">
+        <source>View Course</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/instructors/instructors.component.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="670375483375064040" datatype="html">
+        <source>Test the classroom</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8610504659433544583" datatype="html">
+        <source>Live</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6906890174812415657" datatype="html">
+        <source> Students </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68519059923322818" datatype="html">
+        <source>Lesson activities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">144,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3492007542396725315" datatype="html">
+        <source>Welcome</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2137511848468767775" datatype="html">
+        <source> Greet and connect with your student </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5254250985609447598" datatype="html">
+        <source>Placement test reminder</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">173,174</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7186655356650961877" datatype="html">
+        <source> Encourage your student to check their skills </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">175</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5131044042010780282" datatype="html">
+        <source> Discuss goals and start a course </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1284385644180627577" datatype="html">
+        <source> Choose a course to see the topic </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4837705856701705034" datatype="html">
+        <source>Self-study activity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">199,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8682627331960837935" datatype="html">
+        <source> Start a course to get study activities </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3682190463191084071" datatype="html">
+        <source>Live lesson activity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">211,212</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1752899291047314303" datatype="html">
+        <source> Start a course to get speaking activities </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8429316238784832901" datatype="html">
+        <source>Feedback</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">223,224</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5476001852056734862" datatype="html">
+        <source> Correct errors and discuss progress </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5908182227829427531" datatype="html">
+        <source>Plan the next lessons</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">235,236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1357026070154045602" datatype="html">
+        <source> Discuss assignments and lesson schedule </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/live-class/live-class.component.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4767911083856460724" datatype="html">
+        <source>Write your message...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8756944236282557438" datatype="html">
+        <source>Send </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5945986349492910662" datatype="html">
+        <source>Contacts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">125,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6472599282785029372" datatype="html">
+        <source>View All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">127,128</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">289,290</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">321,322</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6181907632373133266" datatype="html">
+        <source>Chats</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">148,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5339845689623432357" datatype="html">
+        <source>Unread</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">175,176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1166735618648500203" datatype="html">
+        <source>Shared Files</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">287,288</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="608220629781561570" datatype="html">
+        <source>Shared Links</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/message/message.component.html</context>
+          <context context-type="linenumber">319,320</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6205355627445317276" datatype="html">
+        <source>Content</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/components/all-courses-for-student/all-courses-for-student.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5286620359229393771" datatype="html">
+        <source> View Details </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/components/all-courses-for-student/all-courses-for-student.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3012720845354281521" datatype="html">
+        <source>Popular This Week</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2394085080346887535" datatype="html">
+        <source>View all &gt;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/profile.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">151,152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1167462946291532094" datatype="html">
+        <source>Graphic Design</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3926170705008165646" datatype="html">
+        <source> Lorem ipsum dolor sit amet </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8021965513276002875" datatype="html">
+        <source>Programming</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8413637496898353517" datatype="html">
+        <source>Soft Skill</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8597364861447301684" datatype="html">
+        <source>Science</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">71,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2396619024115048718" datatype="html">
+        <source>All Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/my-lessons/my-lessons.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8608344061985657902" datatype="html">
+        <source>Member Since</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/student-card/student-card.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5254622645701859101" datatype="html">
+        <source>Points</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/student-card/student-card.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7164856686778871055" datatype="html">
+        <source>Certificate</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/student-card/student-card.component.html</context>
+          <context context-type="linenumber">32,33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1130914636248035703" datatype="html">
+        <source>Achievements</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/student-card/student-card.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6769219112239702582" datatype="html">
+        <source>Bio</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/components/student-card/student-card.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7680513947214139412" datatype="html">
+        <source>Current Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/profile/profile.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9081234527913963135" datatype="html">
+        <source>Lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3474197733765664833" datatype="html">
+        <source>Time off</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">120,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9550857271862722" datatype="html">
+        <source>Add extra slots</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1070552812714877195" datatype="html">
+        <source> Select student </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2262046242309469974" datatype="html">
+        <source>* This Feild is Required.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">107,108</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5942174826323872290" datatype="html">
+        <source> Individual </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8728259718173346897" datatype="html">
+        <source> Group </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">133,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2167563576988265297" datatype="html">
+        <source> Date And Time </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">149,150</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">237,238</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">275,276</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">351,352</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">389,390</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5203279511751768967" datatype="html">
+        <source>From</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">166,167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1640609344969975994" datatype="html">
+        <source>To</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">183,184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5649367643123700270" datatype="html">
+        <source>Title (visible only to you)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">215,216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6972307636794921114" datatype="html">
+        <source> Starts </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">228</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">342</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8497528947328199741" datatype="html">
+        <source>Time</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">254,255</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">292,293</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">368,369</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">406,407</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4734349318830134239" datatype="html">
+        <source>Ends</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">267,268</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">381,382</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5429205104576034448" datatype="html">
+        <source> All Day </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7242277977443679401" datatype="html">
+        <source> Add extra time slots for booking </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5638964800928415030" datatype="html">
+        <source> Choose time slots up to 24 hours long. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/components/schedule-form/schedule-form.component.html</context>
+          <context context-type="linenumber">337,338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8976594297804608158" datatype="html">
+        <source>Upcoming Task</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7378597876901533965" datatype="html">
+        <source>Schedule lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2441021913247011198" datatype="html">
+        <source>Add time off</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2208493550612743422" datatype="html">
+        <source>Set up availability</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1809247367876425117" datatype="html">
+        <source>First lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">93,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8638924840591620903" datatype="html">
+        <source>Single lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3711601508805391089" datatype="html">
+        <source>Weekly lesson</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">111,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2787484985100780700" datatype="html">
+        <source>Google Calendar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">129,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="263488666408155916" datatype="html">
+        <source>Confirmed by student</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">134,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7617714430950899455" datatype="html">
+        <source>Not confirmed by student</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">139,140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3682450619205188756" datatype="html">
+        <source>Upcoming Schedule</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/schedule/schedule.component.html</context>
+          <context context-type="linenumber">148,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5811097982080929097" datatype="html">
+        <source>Cards</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/cards/cards.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8037476586059399916" datatype="html">
+        <source>Expires</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/cards/cards.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ activeCard[&quot;expires&quot;] }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/cards/cards.component.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7194190145673835332" datatype="html">
+        <source>Card name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/cards/cards.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7708270344948043036" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ activeCard[&quot;name&quot;] | titlecase }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/cards/cards.component.html</context>
+          <context context-type="linenumber">88,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3620290412817563324" datatype="html">
+        <source>Total Revenue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/total-analytics/total-analytics.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6051809910559134032" datatype="html">
+        <source>Current Balance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/total-analytics/total-analytics.component.html</context>
+          <context context-type="linenumber">25,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6882630186150434237" datatype="html">
+        <source>Total Withdrawals</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/total-analytics/total-analytics.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="100376976359171233" datatype="html">
+        <source>Today Revenue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/total-analytics/total-analytics.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2173819074608687345" datatype="html">
+        <source>Statistic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/transactions-graph/transactions-graph.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1836325341458112664" datatype="html">
+        <source>Revenue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/transactions-graph/transactions-graph.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2767577935992650156" datatype="html">
+        <source>Withdraw History</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1216445956577529579" datatype="html">
+        <source> Date </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="615425476052484411" datatype="html">
+        <source> Method </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5514856318489056549" datatype="html">
+        <source> Amount </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4282587102956396340" datatype="html">
+        <source> Status </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4937744130431121358" datatype="html">
+        <source>Cancel Withdraw</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing-history/withdrowing-history.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3700303177928709119" datatype="html">
+        <source>Withdraw your money</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing/withdrowing.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4468071625554558577" datatype="html">
+        <source>Payment method:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing/withdrowing.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8116952032023625100" datatype="html">
+        <source> You will be redirected to the PayPal site after reviewing your order. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing/withdrowing.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="840885797570047719" datatype="html">
+        <source> Current Balance </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing/withdrowing.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7839028674557102237" datatype="html">
+        <source>Withdraw money</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/dashboard-pages/transaction/components/withdrowing/withdrowing.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="854897724620278923" datatype="html">
+        <source> Get More About Us </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8379120929591047990" datatype="html">
+        <source>Thousand Of Top</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7907550079287775016" datatype="html">
+        <source>Now in One Place</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6328814554235917352" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s,  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">96,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6339808105809208883" datatype="html">
+        <source>Start Free Trial </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/about-us-section/about-us-section.component.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7616728160161428370" datatype="html">
+        <source> Explore Programs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/exploring-section/exploring-section.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="566942722179473583" datatype="html">
+        <source> Our Most Popular Class </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/exploring-section/exploring-section.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5340343445668638120" datatype="html">
+        <source> Let&apos;s join our famous class, the knowledge provided will definitely be useful for you. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/exploring-section/exploring-section.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4491938304643883618" datatype="html">
+        <source>How Tutor works</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6398688292807226495" datatype="html">
+        <source> Effective tutoring begins with the strong and caring relationship a tutor establishes with a learner to build trust </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="784272338983647829" datatype="html">
+        <source>Find your tutor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3446468212944287689" datatype="html">
+        <source> We’ll connect you with a tutor who will motivate, challenge, and inspire you. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2681362832465361885" datatype="html">
+        <source>Start learning</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5972143860167987637" datatype="html">
+        <source> Your tutor will guide the way through your first lesson and help you plan your next steps. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">61,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5879978129206254645" datatype="html">
+        <source>Speak. Read. Write. Repeat.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8939678047144825319" datatype="html">
+        <source> Choose how many lessons you want to take each week and get ready to reach your goals! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1673552915066104193" datatype="html">
+        <source>Active Students</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">133,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1488953391787923759" datatype="html">
+        <source>Faculty Courses</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">140,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7769475137842374021" datatype="html">
+        <source>Best Professors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">147,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="988790652104685861" datatype="html">
+        <source>Award Achieved</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/how-work-section/how-work-section.component.html</context>
+          <context context-type="linenumber">154,155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="207772033024847796" datatype="html">
+        <source> Video Courses </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="527162828798386200" datatype="html">
+        <source> Online Courses </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2079576958967436777" datatype="html">
+        <source>Tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4157038221323646991" datatype="html">
+        <source>Up Your </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">129,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3908707349531261891" datatype="html">
+        <source>Skills </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6067270135457800811" datatype="html">
+        <source>To </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1400438762705341153" datatype="html">
+        <source>Advance </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">133,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5743451138367060626" datatype="html">
+        <source>Your </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">134,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1399957764354108911" datatype="html">
+        <source>Career </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">136,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="607655052894272917" datatype="html">
+        <source>Path </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">137,138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8135435113615236164" datatype="html">
+        <source> Start Free Trial <x id="START_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;svg
+              width=&quot;16&quot;
+              height=&quot;15&quot;
+              viewBox=&quot;0 0 16 15&quot;
+              fill=&quot;none&quot;
+              xmlns=&quot;http://www.w3.org/2000/svg&quot;
+            &gt;"/><x id="START_TAG__SVG_G" ctype="x-_svg_g" equiv-text="&lt;g clip-path=&quot;url(#clip0_1_268)&quot;&gt;"/><x id="START_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path
+                  d=&quot;M1.15747 7.55005H14.2825M14.2825 7.55005L8.65747 1.92505M14.2825 7.55005L8.65747 13.175&quot;
+                  stroke=&quot;white&quot;
+                  stroke-width=&quot;1.875&quot;
+                  stroke-linecap=&quot;round&quot;
+                  stroke-linejoin=&quot;round&quot;
+                /&gt;"/><x id="CLOSE_TAG__SVG_PATH" ctype="x-_svg_path" equiv-text="&lt;path
+                  d=&quot;M1.15747 7.55005H14.2825M14.2825 7.55005L8.65747 1.92505M14.2825 7.55005L8.65747 13.175&quot;
+                  stroke=&quot;white&quot;
+                  stroke-width=&quot;1.875&quot;
+                  stroke-linecap=&quot;round&quot;
+                  stroke-linejoin=&quot;round&quot;
+                /&gt;"/><x id="CLOSE_TAG__SVG_G" ctype="x-_svg_g" equiv-text="&lt;/g&gt;"/><x id="START_TAG__SVG_DEFS" ctype="x-_svg_defs" equiv-text="&lt;defs&gt;"/><x id="START_TAG__SVG_CLIPPATH" ctype="x-_svg_clippath" equiv-text="&lt;clipPath id=&quot;clip0_1_268&quot;&gt;"/><x id="START_TAG__SVG_RECT" ctype="x-_svg_rect" equiv-text="&lt;rect
+                    width=&quot;15&quot;
+                    height=&quot;14&quot;
+                    fill=&quot;white&quot;
+                    transform=&quot;translate(0.219971 0.550049)&quot;
+                  /&gt;"/><x id="CLOSE_TAG__SVG_RECT" ctype="x-_svg_rect" equiv-text="&lt;rect
+                    width=&quot;15&quot;
+                    height=&quot;14&quot;
+                    fill=&quot;white&quot;
+                    transform=&quot;translate(0.219971 0.550049)&quot;
+                  /&gt;"/><x id="CLOSE_TAG__SVG_CLIPPATH" ctype="x-_svg_clippath" equiv-text="&lt;/clipPath&gt;"/><x id="CLOSE_TAG__SVG_DEFS" ctype="x-_svg_defs" equiv-text="&lt;/defs&gt;"/><x id="CLOSE_TAG__SVG_SVG" ctype="x-_svg_svg" equiv-text="&lt;/svg&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/landing/landing.component.html</context>
+          <context context-type="linenumber">145,173</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3144486874604914309" datatype="html">
+        <source> Our Latest News Feed </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/latest-news-section/latest-news-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5614629115154776993" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/latest-news-section/latest-news-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7561063782036465107" datatype="html">
+        <source> Want to stay about <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>informed<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> new <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;fw-bold&quot;&gt;"/>courses &amp; study?<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/subscribe-section/subscribe-section.component.html</context>
+          <context context-type="linenumber">17,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5997867231885876865" datatype="html">
+        <source>Type your e-mail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/subscribe-section/subscribe-section.component.html</context>
+          <context context-type="linenumber">33,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2002473588912631842" datatype="html">
+        <source> Subscribe Now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/subscribe-section/subscribe-section.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5177576510155334071" datatype="html">
+        <source> Our Top Class &amp; Expert Instructors in One Place </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1917920787990638806" datatype="html">
+        <source> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8155293074979828783" datatype="html">
+        <source>Ratings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4379568842413641101" datatype="html">
+        <source> Book trial lesson </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1666479904739652673" datatype="html">
+        <source> Explore All </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">125,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4346840687450395699" datatype="html">
+        <source>Become a Instructor</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">157,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3562611268183354086" datatype="html">
+        <source> To take a trivial example, which of us undertakes physical exercise yes is this happen here. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="704922640107201678" datatype="html">
+        <source>Apply Now </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">170,171</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">245,246</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7108441678379125838" datatype="html">
+        <source>Become a Student</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">232,234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1531768315344193371" datatype="html">
+        <source>Join millions of people from around the world learning together. Online learning.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/top-class-section/top-class-section.component.html</context>
+          <context context-type="linenumber">236,237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2689595268263100278" datatype="html">
+        <source> Trending Categories </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4374651213377743099" datatype="html">
+        <source> Find the right tutor for you. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6837976524702130590" datatype="html">
+        <source> With over 30,000 tutors and 1M+ learners, we know language learning. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3529705912708550783" datatype="html">
+        <source>English Tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4494957391104569472" datatype="html">
+        <source>Teachers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">101,102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1720729204881860677" datatype="html">
+        <source>Spanish tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4122461050474512100" datatype="html">
+        <source>French tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7169390485777434552" datatype="html">
+        <source>German tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5855988272722165454" datatype="html">
+        <source>Italian tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">98,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2353497515218358496" datatype="html">
+        <source>Arabic tutors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/components/trending-section/trending-section.component.html</context>
+          <context context-type="linenumber">114,115</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

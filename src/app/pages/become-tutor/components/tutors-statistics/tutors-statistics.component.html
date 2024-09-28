@@ -1,0 +1,64 @@
+<section class="bg-body-tertiary">
+  <div class="container">
+    <div
+      class="row justify-content-lg-center py-5"
+      data-aos="fade-down"
+      data-aos-easing="ease-out-back"
+    >
+      <div class="col-6 col-lg-2 d-flex gap-1 mb-4">
+        <img class="align-self-start" src="./assets/icons/colored/users.svg" />
+        <div>
+          <h3 class="fw-semibold m-0">{{ students | numberFormat }}</h3>
+          <small class="text-secondary fw-medium" i18n>Students</small>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2 d-flex gap-1 mb-4">
+        <img
+          class="align-self-start"
+          src="./assets/icons/colored/notebook.svg"
+        />
+        <div>
+          <h3 class="fw-semibold m-0">
+            {{ certifiedInstructor | numberFormat }}
+          </h3>
+          <small class="text-secondary fw-medium" i18n
+            >Certified Instructor</small
+          >
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2 d-flex gap-1 mb-4">
+        <img
+          class="align-self-start"
+          src="./assets/icons/colored/GlobeHemisphereWest.svg"
+        />
+        <div>
+          <h3 class="fw-semibold m-0">{{ countryLanguage | numberFormat }}</h3>
+          <small class="text-secondary fw-medium" i18n>Country Language</small>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2 d-flex gap-1 mb-4">
+        <img
+          class="align-self-start"
+          src="./assets/icons/colored/CircleWavyCheck.svg"
+        />
+        <div>
+          <h3 class="fw-semibold m-0">{{ successRate }} %</h3>
+          <small class="text-secondary fw-medium" i18n>Success Rate</small>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2 d-flex gap-1 mb-4">
+        <img class="align-self-start" src="./assets/icons/colored/Stack.svg" />
+        <div>
+          <h3 class="fw-semibold m-0">{{ trustedCompanies | numberFormat }}</h3>
+          <small class="text-secondary fw-medium" i18n
+            >Trusted Companies
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

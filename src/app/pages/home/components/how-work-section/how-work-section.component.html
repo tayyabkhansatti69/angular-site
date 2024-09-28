@@ -1,0 +1,158 @@
+<section class="how-work-section bg-body-tertiary py-5">
+  <div class="container position-relative py-5">
+    <!-- title -->
+    <div class="text-center mb-5">
+      <h1 class="fw-bold" i18n>How Tutor works</h1>
+      <p class="small text-body-tertiary mx-auto col-lg-6" i18n>
+        Effective tutoring begins with the strong and caring relationship a
+        tutor establishes with a learner to build trust
+      </p>
+    </div>
+
+    <!-- map -->
+    <div class="row justify-content-center">
+      <!-- step 1 -->
+      <div class="col-md-6 col-lg-4 mb-5">
+        <div
+          class="mx-auto img-box-border border-main card bg-transparent border-0 rounded-pill position-relative z-2 w-75"
+        >
+          <img
+            src="./assets/images/young-male.png"
+            class="card-img rounded-pill"
+          />
+
+          <span
+            class="position-absolute top-5 start-75 translate-middle badge rounded-pill bg-main-lighter fs-2"
+          >
+            1
+          </span>
+        </div>
+
+        <!-- details -->
+        <div class="w-75 mx-auto mt-5">
+          <h3 i18n>Find your tutor</h3>
+          <p class="small text-body-secondary" i18n>
+            We’ll connect you with a tutor who will motivate, challenge, and
+            inspire you.
+          </p>
+        </div>
+      </div>
+
+      <!-- step 2 -->
+      <div class="col-md-6 col-lg-4 pt-lg-5 mt-lg-5 mb-5">
+        <div
+          class="mx-auto img-box-border border-main card bg-transparent border-0 rounded-pill position-relative z-2 w-75"
+        >
+          <img
+            src="./assets/images/girl-in-meeting.png"
+            class="card-img rounded-pill"
+          />
+          <span
+            class="position-absolute top-5 start-75 translate-middle badge rounded-pill bg-main fs-2"
+          >
+            2
+          </span>
+        </div>
+
+        <!-- details -->
+        <div class="w-75 mx-auto mt-5">
+          <h3 i18n>Start learning</h3>
+          <p class="small text-body-secondary" i18n>
+            Your tutor will guide the way through your first lesson and help you
+            plan your next steps.
+          </p>
+        </div>
+      </div>
+
+      <!-- step 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div
+          class="mx-auto img-box-border border-main card bg-transparent border-0 rounded-pill position-relative z-2 w-75"
+        >
+          <img
+            src="./assets/images/writing.png"
+            class="card-img rounded-pill"
+          />
+          <span
+            class="position-absolute top-5 start-75 translate-middle badge rounded-pill bg-main-lighter fs-2"
+          >
+            3
+          </span>
+        </div>
+
+        <!-- details -->
+        <div class="w-75 mx-auto mt-5">
+          <h3 i18n>Speak. Read. Write. Repeat.</h3>
+          <p class="small text-body-secondary" i18n>
+            Choose how many lessons you want to take each week and get ready to
+            reach your goals!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- dotes -->
+    <svg
+      width="406"
+      height="203"
+      viewBox="0 0 406 203"
+      class="dots-1 position-absolute translate-middle"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M404.246 105.537C378.586 143.075 341.969 171.781 299.39 187.737C256.812 203.694 210.348 206.124 166.337 194.696C122.327 183.269 82.914 158.54 53.4779 123.884C24.0417 89.2278 6.01577 46.3333 1.85989 1.05369"
+        stroke="#3269D3"
+        stroke-dasharray="4 2"
+      />
+    </svg>
+
+    <!-- dotes -->
+    <svg
+      width="406"
+      height="203"
+      viewBox="0 0 406 203"
+      class="dots-2 position-absolute translate-middle"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M404.246 98.1855C378.586 60.6479 341.969 31.9422 299.39 15.9855C256.812 0.0288767 210.348 -2.40139 166.337 9.02637C122.327 20.4541 82.914 45.1832 53.4779 79.8391C24.0417 114.495 6.01577 157.389 1.85989 202.669"
+        stroke="#3269D3"
+        stroke-dasharray="4 2"
+      />
+    </svg>
+  </div>
+
+  <div class="container pb-5 my-5">
+    <div
+      class="row justify-content-around bg-main-lighter text-light rounded-5 shadow p-5 mx-2"
+    >
+      <div class="col-5 col-lg-2 text-center mb-5 mb-lg-0">
+        <h2>{{ activeStudents | numberFormat }}</h2>
+        <p class="small" i18n>Active Students</p>
+      </div>
+
+      <div class="vr v-gradient p-0 mb-5 mb-lg-0"></div>
+
+      <div class="col-5 col-lg-2 text-center mb-5 mb-lg-0">
+        <h2>{{ facultyCourses | numberFormat }}</h2>
+        <p class="small" i18n>Faculty Courses</p>
+      </div>
+
+      <div class="vr v-gradient d-none d-lg-block p-0"></div>
+
+      <div class="col-5 col-lg-2 text-center">
+        <h2>{{ bestProfessors | numberFormat }}</h2>
+        <p class="small" i18n>Best Professors</p>
+      </div>
+
+      <div class="vr v-gradient p-0"></div>
+
+      <div class="col-5 col-lg-2 text-center">
+        <h2>{{ awardAchieved | numberFormat }}</h2>
+        <p class="small" i18n>Award Achieved</p>
+      </div>
+    </div>
+  </div>
+</section>

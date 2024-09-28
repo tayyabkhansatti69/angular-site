@@ -1,0 +1,337 @@
+<section class="bg-main overflow-hidden py-5">
+  <!-- circles -->
+  <img
+    src="../assets/icons/bg/bg-top-circles.svg"
+    class="position-absolute top-0 start-0 col-5"
+  />
+  <img
+    src="../assets/icons/bg/bg-bottom-circles.svg"
+    class="position-absolute bottom-0 end-0 col-5"
+  />
+
+  <div class="container py-5">
+    <div class="card rounded-4 overflow-hidden border-0 shadow-sm mt-5">
+      <div class="row">
+        <!-- image -->
+        <div
+          class="col-lg-6 d-flex flex-column justify-content-center align-items-center rounded-4 overflow-hidden z-3 p-lg-5 py-5"
+        >
+          <!-- Overlay -->
+          <img
+            src="../assets/images/dashboard-bg.png"
+            class="img-overlay object-fit-cover"
+          />
+          <div class="overlay"></div>
+
+          <img
+            src="../assets/icons/logo/logo.svg"
+            class="col-9 col-lg-8 mb-3"
+          />
+
+          <p class="h3 text-light fw-light my-4">
+            <span class="d-block mb-2" i18n>Welcome to</span>
+            <span i18n>Tutor Hub Dashboard</span>
+          </p>
+        </div>
+
+        <!-- content -->
+        <div class="col-lg-6">
+          <div class="py-5 px-4 px-lg-5">
+            <!-- title -->
+            <h3 i18n>Sign up</h3>
+            <p class="fw-light small mb-5" i18n>
+              Let’s get you all set up so you can access your personal account.
+            </p>
+
+            <!-- Form body -->
+            <form
+              [formGroup]="signUpForm"
+              (ngSubmit)="submitSignUP(signUpForm)"
+            >
+              <div class="row">
+                <!-- name -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="name"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                  >
+                    Name
+                  </label>
+
+                  <input
+                    formControlName="name"
+                    type="name"
+                    class="form-control text-secondary rounded-3 shadow-sm p-3"
+                    id="name"
+                  />
+                </div>
+
+                <!-- email -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="email"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Mail
+                  </label>
+
+                  <input
+                    formControlName="email"
+                    type="email"
+                    class="form-control text-secondary rounded-3 shadow-sm p-3"
+                    id="email"
+                  />
+                </div>
+
+                <!-- phone -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="phone"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Phone
+                  </label>
+
+                  <input
+                    formControlName="phone"
+                    type="tel"
+                    class="form-control text-secondary rounded-3 shadow-sm p-3"
+                    id="phone"
+                  />
+                </div>
+
+                <!-- major -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="major"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Major
+                  </label>
+
+                  <input
+                    formControlName="major"
+                    type="text"
+                    class="form-control text-secondary rounded-3 shadow-sm p-3"
+                    id="major"
+                  />
+                </div>
+
+                <!-- grade -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="grade"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Grade
+                  </label>
+
+                  <select
+                    formControlName="grade"
+                    class="form-select text-secondary rounded-3 shadow-sm p-3"
+                    id="grade"
+                  >
+                    <option value="grade">Grade</option>
+                  </select>
+                </div>
+
+                <!-- age -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="age"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Age
+                  </label>
+
+                  <input
+                    formControlName="age"
+                    type="number"
+                    class="form-control text-secondary rounded-3 shadow-sm p-3"
+                    id="age"
+                  />
+                </div>
+
+                <!-- gender -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="grade"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Gender
+                  </label>
+
+                  <select
+                    formControlName="gender"
+                    class="form-select text-secondary rounded-3 shadow-sm p-3"
+                    id="gender"
+                  >
+                    <option value="male" i18n>Male</option>
+                    <option value="female" i18n>Female</option>
+                  </select>
+                </div>
+
+                <!-- photo -->
+                <div class="col-xl-6 mb-3">
+                  <label
+                    for="photo"
+                    class="form-label legend-label text-secondary bg-white px-2 mx-2"
+                  >
+                    <small i18n>Photo</small>
+                  </label>
+
+                  <label
+                    for="photo"
+                    class="file-label form-control text-end rounded-3 shadow-sm p-3 d-flex justify-content-between"
+                  >
+                    <span class="text-secondary">
+                      {{ signUpForm.get("photo")?.value?.["name"] | titlecase }}
+                    </span>
+
+                    <i class="bi bi-cloud-upload m-0"></i>
+                  </label>
+
+                  <!-- hidden input -->
+                  <input
+                    (change)="onFileChange($event, signUpForm, 'photo')"
+                    type="file"
+                    class="visually-hidden"
+                    id="photo"
+                  />
+                </div>
+
+                <!-- password -->
+                <div class="col-xl-6 mb-3 position-relative">
+                  <label
+                    for="password"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                    >Password
+                  </label>
+
+                  <input
+                    #passwordControl
+                    formControlName="password"
+                    type="password"
+                    class="form-control text-secondary rounded-3 shadow-sm text- p-3 pe-5"
+                    id="password"
+                  />
+
+                  <!-- icon -->
+                  <i
+                    (click)="
+                      passwordControl.type =
+                        passwordControl.type === 'password'
+                          ? 'text'
+                          : 'password'
+                    "
+                    class="position-absolute top-50 end-0 p-0 me-4"
+                    [ngClass]="{
+                      'bi bi-eye': passwordControl.type === 'password',
+                      'bi bi-eye-slash': passwordControl.type === 'text'
+                    }"
+                  ></i>
+                </div>
+
+                <!-- rePassword -->
+                <div class="col-xl-6 mb-3 position-relative">
+                  <label
+                    for="confirm-password"
+                    class="form-label small legend-label text-secondary bg-white px-2 mx-2"
+                    i18n
+                  >
+                    Confirm Password
+                  </label>
+
+                  <input
+                    #rePasswordControl
+                    formControlName="rePassword"
+                    type="password"
+                    class="form-control text-secondary rounded-3 shadow-sm text- p-3 pe-5"
+                    id="confirm-password"
+                  />
+
+                  <!-- icon -->
+                  <i
+                    (click)="
+                      rePasswordControl.type =
+                        rePasswordControl.type === 'password'
+                          ? 'text'
+                          : 'password'
+                    "
+                    class="position-absolute top-50 end-0 p-0 me-4"
+                    [ngClass]="{
+                      'bi bi-eye': rePasswordControl.type === 'password',
+                      'bi bi-eye-slash': rePasswordControl.type === 'text'
+                    }"
+                  ></i>
+                </div>
+              </div>
+
+              <!-- role -->
+              <div class="mb-4">
+                <label
+                  for="role"
+                  class="form-label legend-label text-secondary bg-white px-2 mx-2"
+                >
+                  <small i18n>Role</small>
+                </label>
+
+                <select
+                  #role
+                  class="form-select text-secondary rounded-3 shadow-sm p-3"
+                  id="role"
+                >
+                  <option value="student" i18n>Student</option>
+                  <option value="teacher" i18n>Teacher</option>
+                  <option value="parent" i18n>Parent</option>
+                  <option value="admin" i18n>Admin</option>
+                  <option value="manager" i18n>Manager</option>
+                </select>
+              </div>
+
+              <!-- Submit -->
+              <button
+                class="btn btn-main-lighter d-block col-7 py-2 mx-auto mt-3"
+                i18n
+              >
+                Login
+              </button>
+            </form>
+
+            <!-- Sign In -->
+            <p class="text-center mt-3">
+              <small class="text-secondary" i18n>
+                Already have an account?
+                <a class="text-main fw-semibold" routerLink="/auth/sign-in">
+                  Login
+                </a>
+              </small>
+            </p>
+
+            <!-- Sepatator -->
+            <div class="d-flex align-items-center justify-content-center">
+              <hr class="w-25" />
+              <small class="text-secondary mx-2" i18n> Or Sign up with </small>
+              <hr class="w-25" />
+            </div>
+
+            <!-- Other ways -->
+            <div
+              class="d-flex align-items-center justify-content-center gap-4 mt-3"
+            >
+              <a href="">
+                <i class="bi bi-facebook fs-5"></i>
+              </a>
+
+              <a href="">
+                <i class="bi bi-google fs-5"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,155 @@
+<footer class="bd-footer bg-main text-light py-4 py-md-5" id="footer">
+  <div class="container py-4 py-md-5 px-4 px-md-3">
+    <div class="row">
+      <!-- col-1 -->
+      <div class="col-lg-3 mb-4 flex-sm-grow-1">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2 mb-4"
+          routerLink=""
+        >
+          <img src="./assets/icons/logo/logo.svg" />
+        </a>
+
+        <ul class="list-unstyled small w-75">
+          <li class="mb-2">
+            <p style="line-height: 27px">{{ info }}</p>
+          </li>
+
+          <li class="mb-2">
+            <address>{{ address }}</address>
+          </li>
+
+          <li class="mb-2">
+            <p>{{ phone }}</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- col-2 -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold" i18n>Useful Links</h5>
+        <hr class="border-4 opacity-100 rounded-pill" style="width: 30px" />
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="" i18n>Who we are</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>How it works</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Tutor reviews</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Status</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Work at Future Learn</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>uizlet Plus</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- col-3 -->
+      <div class="col-6 col-lg-2 mb-4">
+        <h5 class="fw-bold" i18n>Tutor hub</h5>
+        <hr class="border-4 opacity-100 rounded-pill" style="width: 30px" />
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="" i18n>Contact Us</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Become Teacher</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Blog</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Instructor</a>
+          </li>
+          <li class="mb-2">
+            <a href="" i18n>Events</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- col-4 -->
+      <div class="col-lg-2 mb-4 flex-sm-grow-1">
+        <h5 class="fw-bold" i18n>Get In Touch</h5>
+        <hr class="border-4 opacity-100 rounded-pill" style="width: 30px" />
+
+        <ul class="list-unstyled small">
+          <li class="mb-2">
+            <p style="line-height: 27px" i18n>
+              when an unknown printer took galley type and scrambled
+            </p>
+          </li>
+
+          <!-- social media links -->
+          <li class="mb-2">
+            <ul class="list-unstyled d-flex gap-1">
+              <li class="p-1">
+                <a [href]="socialLinks['facebook']" title="Facebook">
+                  <img src="./assets/icons/social-media/fb-light.svg" alt="" />
+                </a>
+              </li>
+
+              <li class="p-1">
+                <a [href]="socialLinks['twitter']" title="Twitter">
+                  <img src="./assets/icons/social-media/tw.svg" />
+                </a>
+              </li>
+
+              <li class="p-1">
+                <a [href]="socialLinks['whatsapp']" title="Whatsapp">
+                  <img src="./assets/icons/social-media/wa.svg" />
+                </a>
+              </li>
+
+              <li class="p-1">
+                <a [href]="socialLinks['instagram']" title="Instagram">
+                  <img src="./assets/icons/social-media/insta.svg" />
+                </a>
+              </li>
+
+              <li class="p-1">
+                <a [href]="socialLinks['youtube']" title="Youtube">
+                  <img src="./assets/icons/social-media/yt.svg" />
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- Stores -->
+          <li class="d-flex gap-2 flex-wrap mb-2">
+            <a [href]="socialLinks.googlePlay">
+              <img src="./assets/icons/social-media/google-play.svg" alt="" />
+            </a>
+
+            <a [href]="socialLinks.appleStore">
+              <img src="./assets/icons/social-media/apple-store.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Copy-rights bar  -->
+<div class="bg-main-lighter text-light">
+  <div class="container py-4">
+    <div
+      class="d-flex justify-content-between align-items-center flex-column flex-lg-row fw-light gap-2"
+    >
+      <span>
+        &copy; <time #crYear>2024</time>.
+        <span i18n> Tutor All rights reserved </span>
+      </span>
+      <span i18n>Term of Use | Privacy Policy</span>
+    </div>
+  </div>
+</div>

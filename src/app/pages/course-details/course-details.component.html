@@ -1,0 +1,815 @@
+<section class="shadow-sm border-bottom border-5 z-3 py-5 overflow-hidden">
+  <!-- Overlay -->
+  <img
+    src="./assets/images/girl-in-meeting.png"
+    class="img-overlay object-fit-cover"
+  />
+  <div class="overlay"></div>
+  <!-- circles -->
+  <img
+    class="position-absolute top-0 start-0 col-3"
+    style="transform: translate(-100px, 0px)"
+    src="./assets/icons/bg/bg-circles.svg"
+  />
+
+  <div class="container position-relative z-3 pt-5 my-5">
+    <h1 class="fw-bolder">
+      <span i18n>Course</span>
+      <span class="text-light" i18n> Details</span>
+    </h1>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <!-- detILs -->
+    <div class="col-lg-8 col-xl-9">
+      <div class="card card-body border-0 bg-transparent pt-0">
+        <!-- img -->
+        <img
+          class="card-img rounded-3 object-fit-cover mb-3"
+          [src]="course['imgUrl']"
+          width="500px"
+          height="450px"
+          alt="..."
+        />
+
+        <!-- rate -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+          <small class="bg-secondary-subtle rounded-pill px-3 py-1">
+            {{ course["subject"] | titlecase }}
+          </small>
+          <small class="d-flex gap-1">
+            <img src="./assets/icons/rating/star-fill.svg" />
+            ({{ course["rate"] }} <span i18n>Rewiews</span>)
+          </small>
+        </div>
+
+        <!-- course_name -->
+        <h3 class="card-title fw-semibold mb-4">
+          {{ course["course_name"] | titlecase }}
+        </h3>
+
+        <!-- Teacher -->
+        <div
+          class="card-text d-flex align-items-center gap-2 text-secondary fw-medium mb-3"
+        >
+          <img
+            class="rounded-pill object-fit-cover"
+            [src]="course['teacher']['photo']"
+            width="50px"
+            height="50px"
+          />
+          <small i18n>By</small>
+          <small class="text-dark">
+            {{ course["teacher"]?.name | titlecase }}
+          </small>
+
+          <!-- date -->
+          <span>
+            <img src="./assets/icons/calendar-outline.svg" />
+            <small>
+              {{ course["created_at"] | date }}
+            </small>
+          </span>
+
+          <small>•</small>
+
+          <!-- students -->
+          <span>
+            <img src="./assets/icons/hat-gray.svg" />
+            <small> 250 Students </small>
+          </span>
+        </div>
+
+        <!-- tabs titles -->
+        <ul class="d-flex gap-2 list-unstyled my-4">
+          <li>
+            <button
+              class="btn rounded-pill"
+              (click)="activeTab = 'overview'"
+              [ngClass]="{
+                'btn-main': activeTab == 'overview',
+                'btn-secondary-subtle': activeTab != 'overview'
+              }"
+              i18n
+            >
+              Overview
+            </button>
+          </li>
+          <li>
+            <button
+              class="btn rounded-pill"
+              (click)="activeTab = 'curriculum'"
+              [ngClass]="{
+                'btn-main': activeTab == 'curriculum',
+                'btn-secondary-subtle': activeTab != 'curriculum'
+              }"
+              i18n
+            >
+              Curriculum
+            </button>
+          </li>
+          <li>
+            <button
+              class="btn rounded-pill"
+              (click)="activeTab = 'instructors'"
+              [ngClass]="{
+                'btn-main': activeTab == 'instructors',
+                'btn-secondary-subtle': activeTab != 'instructors'
+              }"
+              i18n
+            >
+              Instructors
+            </button>
+          </li>
+          <li>
+            <button
+              class="btn rounded-pill"
+              (click)="activeTab = 'reviews'"
+              [ngClass]="{
+                'btn-main': activeTab == 'reviews',
+                'btn-secondary-subtle': activeTab != 'reviews'
+              }"
+              i18n
+            >
+              Reviews
+            </button>
+          </li>
+        </ul>
+
+        <!-- tab body -->
+        <div
+          [ngTemplateOutlet]="
+            activeTab == 'overview'
+              ? overview
+              : activeTab == 'curriculum'
+              ? curriculum
+              : activeTab == 'instructors'
+              ? instructors
+              : reviews
+          "
+        ></div>
+
+        <ng-template #overview>
+          <div class="card card-body bg-transparent rounded-3 shadow-sm p-lg-5">
+            <!-- Course Description -->
+            <h5 class="card-title fw-semibold mb-4" i18n>Course Description</h5>
+
+            <p class="text-body-tertiary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+              accusamus harum doloribus non animi dolore eius unde iusto labore
+              voluptates, asperiores placeat veritatis, minus sed aut
+              consectetur aspernatur? Nemo, fugit!
+            </p>
+
+            <!-- What you'll learn -->
+            <h5 class="card-title fw-semibold mb-4" i18n>
+              What you'll learn in this course?
+            </h5>
+            <p class="text-body-tertiary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+              accusamus harum doloribus non animi dolore eius unde iusto labore
+              voluptates, asperiores placeat veritatis, minus sed aut
+              consectetur aspernatur? Nemo, fugit!
+            </p>
+
+            <!-- Features List -->
+            <p class="fw-semibold mb-2">
+              <img
+                src="./assets/icons/play-video.svg"
+                class="rounded-pill shadow-sm border border-2"
+              />
+              <span class="mx-2" i18n> The Most World Class Instructors </span>
+            </p>
+
+            <p class="fw-semibold mb-2">
+              <img
+                src="./assets/icons/play-video.svg"
+                class="rounded-pill shadow-sm border border-2"
+              />
+              <span class="mx-2" i18n> Access Your Class anywhere </span>
+            </p>
+
+            <p class="fw-semibold mb-3">
+              <img
+                src="./assets/icons/play-video.svg"
+                class="rounded-pill shadow-sm border border-2"
+              />
+              <span class="mx-2" i18n> Flexible Course Plan </span>
+            </p>
+
+            <!--  -->
+            <p class="text-body-tertiary">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+              accusamus harum doloribus non animi dolore eius unde iusto labore
+              voluptates, asperiores placeat veritatis, minus sed aut
+              consectetur aspernatur? Nemo, fugit!
+            </p>
+          </div>
+        </ng-template>
+
+        <ng-template #curriculum>
+          <h5 class="card-title fw-semibold mb-4" i18n>Video Courses</h5>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-play-circle-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">Introduction</span>
+              <span>1:00</span>
+            </div>
+          </div>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-lock-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">Getting Started</span>
+              <span>1:00</span>
+            </div>
+          </div>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-lock-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">Tools</span>
+              <span>1:00</span>
+            </div>
+          </div>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-lock-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">lorem ipsum</span>
+              <span>1:00</span>
+            </div>
+          </div>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-lock-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">lorem ipsum</span>
+              <span>1:00</span>
+            </div>
+          </div>
+
+          <div class="bg-secondary bg-opacity-50 rounded-3 mb-3">
+            <div
+              class="btn btn-outline-main-lighter border-0 rounded-3 text-light d-flex align-items-center gap-2"
+            >
+              <i class="bi bi-lock-fill fs-5 m-0"></i>
+              <span class="flex-fill text-start">lorem ipsum</span>
+              <span>1:00</span>
+            </div>
+          </div>
+        </ng-template>
+
+        <ng-template #instructors>
+          <div class="card card-body shadow-sm p-lg-5">
+            <!-- card -->
+            <div class="card border-0 mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 col-xl-2">
+                  <img
+                    src="https://picsum.photos/100"
+                    class="card-img object-fit-cover rounded-start"
+                  />
+                </div>
+
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Chioma F.
+                      <i class="bi bi-patch-check-fill"></i>
+                      🏳️
+                    </h5>
+
+                    <p class="card-text">
+                      An enthusiastic Math teacher/tutor with 6 years of
+                      experience. Let's learn Math the fun way 🙂
+                    </p>
+
+                    <div class="d-flex gap-3">
+                      <i class="bi bi-patch-check-fill"></i>
+                      <div>
+                        <p class="fw-bold m-0">Trials are 100% refundable</p>
+                        <small>
+                          Try another tutor for free or get a refund
+                        </small>
+                      </div>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                      <i class="bi bi-mortarboard-fill"></i>
+                      <div>
+                        <p class="fw-bold m-0">Teaches</p>
+                        <small> Math lessons </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- about -->
+            <div class="mb-3">
+              <h5 class="card-title fw-medium mb-4" i18n>About me</h5>
+              <p class="px-3">
+                Do you have a 'phobia' for Math or you want to improve your Math
+                skills, search no more for I am the tutor you seek.
+                <br />
+                <br />
+                I am a graduate with a great passion for teaching (especially
+                Numeracy) and I have been a
+                <a href="" class="text-main"> Math tutor </a>
+                for over 6 years.
+              </p>
+              <button class="btn text-decoration-underline">Show more</button>
+            </div>
+
+            <!-- My specialties -->
+            <div>
+              <h5 class="card-title fw-medium mb-3" i18n>My specialties</h5>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Elementary math
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the first item's accordion body.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      Math for kids
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the second item's accordion body. Let's imagine
+                      this being filled with some actual content.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      GCSE Math
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the third item's accordion body. Nothing more
+                      exciting happening here in terms of content, but just
+                      filling up the space to make it look, at least at first
+                      glance, a bit more representative of how this would look
+                      in a real-world application.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse4"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse4"
+                    >
+                      SAT Math
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the third item's accordion body. Nothing more
+                      exciting happening here in terms of content, but just
+                      filling up the space to make it look, at least at first
+                      glance, a bit more representative of how this would look
+                      in a real-world application.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse5"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse5"
+                    >
+                      ACT Math
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the third item's accordion body. Nothing more
+                      exciting happening here in terms of content, but just
+                      filling up the space to make it look, at least at first
+                      glance, a bit more representative of how this would look
+                      in a real-world application.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed justify-content-between fw-semibold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapse6"
+                      aria-expanded="false"
+                      aria-controls="flush-collapse6"
+                    >
+                      GRE Math
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapse6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      Placeholder content for this accordion, which is intended
+                      to demonstrate the <code>.accordion-flush</code> class.
+                      This is the third item's accordion body. Nothing more
+                      exciting happening here in terms of content, but just
+                      filling up the space to make it look, at least at first
+                      glance, a bit more representative of how this would look
+                      in a real-world application.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-main">Book a trail session</button>
+            </div>
+          </div>
+        </ng-template>
+
+        <ng-template #reviews>
+          <div class="card card-body shadow-sm p-lg-5">
+            <h5 class="card-title fw-semibold mb-4" i18n>
+              What my students say
+            </h5>
+
+            <div class="row">
+              <div class="col-md-3">
+                <p class="fs-1 m-0">3</p>
+                <div class="d-flex gap-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+                <small class="text-secondary">2 reviews</small>
+              </div>
+              <div class="col-md-9">
+                <div class="d-flex gap-2 align-items-center">
+                  <span>5</span>
+                  <div
+                    class="progress rounded-0 border border-2 border-dark flex-fill"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="0"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 10px"
+                  >
+                    <div class="progress-bar bg-dark" style="width: 0%"></div>
+                  </div>
+                  <span>(0)</span>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <span>4</span>
+                  <div
+                    class="progress rounded-0 border border-2 border-dark flex-fill"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 10px"
+                  >
+                    <div class="progress-bar bg-dark" style="width: 25%"></div>
+                  </div>
+                  <span>(25)</span>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <span>3</span>
+                  <div
+                    class="progress rounded-0 border border-2 border-dark flex-fill"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 10px"
+                  >
+                    <div class="progress-bar bg-dark" style="width: 50%"></div>
+                  </div>
+                  <span>(50)</span>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <span>2</span>
+                  <div
+                    class="progress rounded-0 border border-2 border-dark flex-fill"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 10px"
+                  >
+                    <div class="progress-bar bg-dark" style="width: 75%"></div>
+                  </div>
+                  <span>(75)</span>
+                </div>
+
+                <div class="d-flex gap-2 align-items-center">
+                  <span>1</span>
+                  <div
+                    class="progress rounded-0 border border-2 border-dark flex-fill"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="height: 10px"
+                  >
+                    <div class="progress-bar bg-dark" style="width: 100%"></div>
+                  </div>
+                  <span>(100)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-5">
+              <div class="col-md-6 col-lg-4">
+                <div class="d-flex gap-2 mb-2">
+                  <i
+                    class="bi bi-person-fill fs-5 p-2 bg-secondary-subtle rounded-2 px-3 m-0"
+                  ></i>
+                  <div>
+                    <p class="fw-semibold m-0">Inaya</p>
+                    <small>{{ date | date }}</small>
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                  <i class="bi bi-star"></i>
+                </div>
+
+                <small class="d-block mb-0"
+                  >Failed to attend the scheduled lesson</small
+                >
+                <button class="btn smaller px-0 text-decoration-underline">
+                  Show more
+                </button>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="d-flex gap-2 mb-2">
+                  <i
+                    class="bi bi-person-fill fs-5 p-2 bg-secondary-subtle rounded-2 px-3 m-0"
+                  ></i>
+                  <div>
+                    <p class="fw-semibold m-0">Udoka</p>
+                    <small>{{ date | date }}</small>
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+
+                <small class="d-block mb-0"
+                  >Failed to attend the scheduled lesson</small
+                >
+                <button
+                  class="btn smaller px-0 text-decoration-underline d-block"
+                >
+                  Show more
+                </button>
+
+                <button class="btn smaller px-0 text-decoration-underline">
+                  <i class="bi bi-translate"></i> Translate
+                </button>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <div class="d-flex gap-2 mb-2">
+                  <i
+                    class="bi bi-person-fill fs-5 p-2 bg-secondary-subtle rounded-2 px-3 m-0"
+                  ></i>
+                  <div>
+                    <p class="fw-semibold m-0">Udoka</p>
+                    <small>{{ date | date }}</small>
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 mb-2">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                </div>
+
+                <small class="d-block mb-0"
+                  >Failed to attend the scheduled lesson</small
+                >
+                <button
+                  class="btn smaller px-0 text-decoration-underline d-block"
+                >
+                  Show more
+                </button>
+
+                <button class="btn smaller px-0 text-decoration-underline">
+                  <i class="bi bi-translate"></i> Translate
+                </button>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </div>
+    </div>
+
+    <!-- side details -->
+    <div class="col-lg-4 col-xl-3">
+      <div class="card card-body bg-transparent rounded-3 shadow-sm">
+        <!-- Price -->
+        <div class="bg-main rounded-3 shadow-sm text-white p-3">
+          <p class="fw-semibold mb-1" i18n>This Course Fees:</p>
+          <p class="h3 m-0">${{ course["price"] }}</p>
+        </div>
+
+        <!-- Course includes: -->
+        <p class="fw-semibold mb-0 mt-3" i18n>Course includes:</p>
+
+        <!-- items -->
+        <div class="d-flex align-items-center gap-2 border-bottom py-2">
+          <img src="./assets/icons/signal.svg" />
+          <small class="text-dark flex-grow-1" i18n>Level</small>
+          <small class="text-body-tertiary">{{
+            course["teacher"]["level"]
+          }}</small>
+          <small class="text-body-tertiary">
+            $<span class="text-main-lighter">5</span>
+          </small>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 border-bottom py-2">
+          <img src="./assets/icons/clock-outline.svg" />
+          <small class="text-dark flex-grow-1" i18n>Duration</small>
+          <small class="text-body-tertiary" i18n>
+            {{ course["session_duration"] }}h
+          </small>
+          <small class="text-body-tertiary" i18n>
+            $<span class="text-main-lighter">15</span>
+          </small>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 border-bottom py-2">
+          <img src="./assets/icons/book.svg" />
+          <small class="text-dark flex-grow-1" i18n>Lessons</small>
+          <small class="text-body-tertiary">
+            {{ course["number_of_sessions"] }}
+          </small>
+          <small class="text-body-tertiary">
+            $<span class="text-main-lighter">10</span>
+          </small>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 border-bottom py-2">
+          <img src="./assets/icons/pazzel.svg" />
+          <small class="text-dark flex-grow-1" i18n>Quizzes</small>
+          <small class="text-body-tertiary">145</small>
+          <small class="text-body-tertiary">
+            $<span class="text-main-lighter">5</span>
+          </small>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 border-bottom py-2">
+          <img src="./assets/icons/hat-gray.svg" />
+          <small class="text-dark flex-grow-1" i18n>Graduation</small>
+          <small class="text-body-tertiary">25K</small>
+          <small class="text-body-tertiary">
+            $<span class="text-main-lighter">15</span>
+          </small>
+        </div>
+
+        <!-- Secure Payment: -->
+        <p class="fw-semibold mb-0 mt-3" i18n>Secure Payment:</p>
+        <div class="d-flex gap-2 my-2">
+          <img src="./assets/icons/colored/visa.svg" />
+          <img src="./assets/icons/colored/master-card.svg" />
+          <img src="./assets/icons/colored/paypal.svg" />
+        </div>
+
+        <!-- buy now -->
+        <button
+          routerLink="/course-cart"
+          class="btn btn-main rounded-pill d-flex align-items-center gap-2 mt-3 px-4"
+        >
+          <span class="flex-grow-1 text-start" i18n>Buy Now</span>
+          <svg
+            width="16"
+            height="14"
+            viewBox="0 0 16 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.15723 6.95996H14.2822M14.2822 6.95996L8.65723 1.33496M14.2822 6.95996L8.65723 12.585"
+              stroke="white"
+              stroke-width="1.875"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<app-exploring-section></app-exploring-section>

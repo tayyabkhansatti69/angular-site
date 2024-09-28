@@ -1,0 +1,291 @@
+<section class="top-classes-sec py-5">
+  <div class="container text-light py-5 my-5">
+    <div data-aos="fade-down" data-aos-easing="ease-out-back">
+      <!-- Title -->
+      <h2 class="text-center fw-bold mx-auto col-lg-5 mb-4" i18n>
+        Our Top Class & Expert Instructors in One Place
+      </h2>
+      <p class="small text-center mx-auto col-lg-4" i18n>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum
+      </p>
+    </div>
+
+    <!-- Slider -->
+    <div class="px-lg-2" data-aos="zoom-out" data-aos-easing="ease-out-back">
+      <owl-carousel-o [options]="customOptions">
+        <!-- card -->
+        <ng-template carouselSlide *ngFor="let item of cards">
+          <div class="card shadow-sm m-3">
+            <div class="card-body p-4">
+              <!-- teacher info -->
+              <div class="d-flex gap-3 px-3 mb-3">
+                <!-- [src]="item['photo']" -->
+                <img
+                  src="https://picsum.photos/90"
+                  class="rounded-pill shadow"
+                  style="width: 90px; height: 90px"
+                />
+
+                <!-- details -->
+                <div class="flex-grow-1">
+                  <h6 class="mb-2">{{ item["name"] | titlecase }}</h6>
+
+                  <!-- major -->
+                  <p class="mb-1 d-flex justify-content-between">
+                    <small>
+                      <img
+                        src="./assets/icons/hat.svg"
+                        class="d-inline w-auto"
+                      />
+                      <span class="mx-1">
+                        {{ item["major"] | titlecase }}
+                      </span>
+                    </small>
+
+                    <small>
+                      <svg
+                        class="me-1"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8 3.76958V8.43055L11.2978 11.7243M8 15.422C11.866 15.422 15 12.2919 15 8.43055C15 4.56927 11.866 1.43909 8 1.43909C4.13401 1.43909 1 4.56927 1 8.43055C1 12.2919 4.13401 15.422 8 15.422Z"
+                          stroke="#14B3E0"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <span>Online</span>
+                    </small>
+                  </p>
+
+                  <!-- analytics -->
+                  <p class="mb-1">
+                    <small class="d-flex">
+                      <img
+                        src="./assets/icons/person.svg"
+                        class="d-inline w-auto"
+                      />
+
+                      <span class="mx-2">
+                        {{ item["students"] ? item["students"] : 0 }}
+                        <span> active students </span>
+                        {{ item["courses"] ? item["courses"] : 0 }}
+                        <span> lessons </span>
+                      </span>
+                    </small>
+                  </p>
+
+                  <!-- rate -->
+                  <p class="mb-1">
+                    <small class="text-secondary fw-light">
+                      <img
+                        src="./assets/icons/rating/star-outline.svg"
+                        class="d-inline w-auto"
+                      />
+                      <span class="mx-1">
+                        ({{ item["rate"] ? item["rate"] : 0 }}
+                        <span i18n>Ratings</span>)
+                      </span>
+                    </small>
+                  </p>
+                </div>
+              </div>
+
+              <!-- body paragraph -->
+              <p>
+                <small class="text-capitalize">
+                  {{ item["about"] }}
+                </small>
+              </p>
+
+              <!-- btn Book trial lesson -->
+              <button
+                routerLink="./all-courses"
+                class="btn btn-main d-block ms-auto"
+                i18n
+              >
+                Book trial lesson
+              </button>
+            </div>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+
+    <!-- more btn -->
+    <button
+      routerLink="./all-courses"
+      class="btn btn-main d-block mx-auto my-4"
+      i18n
+    >
+      Explore All
+    </button>
+
+    <!-- cards -->
+    <div class="row justify-content-between mt-5">
+      <!-- card 1 -->
+      <div
+        class="col-lg-6"
+        data-aos="fade-right"
+        data-aos-easing="ease-out-back"
+      >
+        <div class="card rounded-4 overflow-hidden border-0 pt-4 mb-3">
+          <div class="row g-0">
+            <!-- card img -->
+            <div class="col-md-5 position-relative">
+              <img
+                src="./assets/images/top-class-card-1.png"
+                class="c-img d-block mx-auto img-fluid rounded-start position-relative z-1 ms-4"
+                alt="..."
+              />
+              <!-- oval -->
+              <img
+                class="position-absolute bottom-0 start-0"
+                src="./assets/icons/bg/oval-half.svg"
+              />
+              <!-- crown -->
+              <img
+                class="position-absolute top-0 start-0"
+                style="transform: translate(25px, -15px)"
+                src="./assets/icons/bg/crown-beams.svg"
+              />
+            </div>
+
+            <!-- card body -->
+            <div class="col-md-7">
+              <div class="card-body position-relative">
+                <h5 class="card-title" i18n>Become a Instructor</h5>
+
+                <p class="card-text text-body-secondary">
+                  <small i18n>
+                    To take a trivial example, which of us undertakes physical
+                    exercise yes is this happen here.
+                  </small>
+                </p>
+
+                <button
+                  routerLink="./auth/"
+                  class="btn btn-main rounded-pill shadow-sm px-4"
+                >
+                  <span i18n>Apply Now </span>
+                  <svg
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_268)">
+                      <path
+                        d="M1.15747 7.55005H14.2825M14.2825 7.55005L8.65747 1.92505M14.2825 7.55005L8.65747 13.175"
+                        stroke="white"
+                        stroke-width="1.875"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_268">
+                        <rect
+                          width="15"
+                          height="14"
+                          fill="white"
+                          transform="translate(0.219971 0.550049)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- card 2 -->
+      <div
+        class="col-lg-6"
+        data-aos="fade-left"
+        data-aos-easing="ease-out-back"
+      >
+        <div class="card rounded-4 overflow-hidden border-0 mb-3 pt-4">
+          <div class="row g-0">
+            <!-- card img -->
+            <div class="col-md-5 position-relative">
+              <img
+                src="./assets/images/top-class-card-2.png"
+                class="c-img d-block mx-auto img-fluid rounded-start position-relative z-1 ms-4"
+                alt="..."
+              />
+              <!-- oval -->
+              <img
+                class="position-absolute bottom-0 start-0"
+                src="./assets/icons/bg/oval-half.svg"
+              />
+              <!-- crown -->
+              <img
+                class="position-absolute top-0 start-0"
+                style="transform: translate(25px, -15px)"
+                src="./assets/icons/bg/crown-beams.svg"
+              />
+            </div>
+
+            <!-- card body -->
+            <div class="col-md-7">
+              <div class="card-body position-relative">
+                <h5 class="card-title" i18n>Become a Student</h5>
+
+                <p class="card-text text-body-secondary">
+                  <small i18n
+                    >Join millions of people from around the world learning
+                    together. Online learning.</small
+                  >
+                </p>
+
+                <button
+                  routerLink="./auth/"
+                  class="btn btn-main rounded-pill shadow-sm px-4"
+                >
+                  <span i18n>Apply Now </span>
+                  <svg
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_268)">
+                      <path
+                        d="M1.15747 7.55005H14.2825M14.2825 7.55005L8.65747 1.92505M14.2825 7.55005L8.65747 13.175"
+                        stroke="white"
+                        stroke-width="1.875"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_268">
+                        <rect
+                          width="15"
+                          height="14"
+                          fill="white"
+                          transform="translate(0.219971 0.550049)"
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
